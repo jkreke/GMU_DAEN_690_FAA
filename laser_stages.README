@@ -1,0 +1,51 @@
+brief description of what is in the laser_stageXX.csv files
+
+
+--------------------------
+stage00
+You won't find that in this repo.  It's the original file with things unpublishable to the public (PII).
+
+---------------------------
+laser_stage01.csv
+All PII is removed (masked) in remarks, and columns containing other PII is removed
+limitedRecipients
+userId
+legacyUser
+
+dimension (56636, 33)
+
+
+----------------------------
+laser_stage02.csv
+removed
+X__v
+status
+pod
+primaryCode
+limitedPage
+destNew.country
+operator.code
+operator.name
+operator.country
+operator.telephony
+tailNum
+files
+
+also removed duplicates
+also removed remarks with nasa or goddard (left a couple in that were not laser testing)
+
+Added
+DOS (Date of Strike)
+Time.z (time of strike in zulu)
+year
+
+dim (51028, 23)
+
+  nrows                        after removed
+1 56636    bringing in laser_stage01       0
+2 51212 removing strikes before 2011    5424
+3 51167        removing nasa-goddard      45
+4 51028          removing duplicates     139
+
+
+
