@@ -1,0 +1,54 @@
+This is a brief description of what is in the laser_stageXX.csv files.
+It's also a kind of log of what's changed and what I'm finding as I clean up the data.
+
+
+--------------------------
+stage00
+You won't find that in this repo.  It's the original file with things unpublishable to the public (PII).
+
+---------------------------
+laser_stage01.csv
+All PII is removed (masked) in remarks, and columns containing other PII is removed
+limitedRecipients
+userId
+legacyUser
+
+dimension (56636, 33)
+
+
+----------------------------
+laser_stage02.csv
+removed
+X__v
+status
+pod
+primaryCode
+limitedPage
+destNew.country
+operator.code
+operator.name
+operator.country
+operator.telephony
+tailNum
+files
+
+also removed duplicates
+also removed remarks with nasa or goddard (left a couple in that were not laser testing)
+
+Added
+DOS (Date of Strike)
+Time.z (time of strike in zulu)
+year
+
+dim (51028, 23)
+
+  nrows                        after removed
+1 56636    bringing in laser_stage01       0
+2 51212 removing strikes before 2011    5424
+3 51198        removing nasa-goddard      14
+4 51059          removing duplicates     139
+
+
+Note on stage02:
+2/27 (JGK):  I believe Char had said there were some remarks that were empty.  Forgot to look at that yesterday to make that part of stage02 but when I looked for it today, I found none.  Apparently the cuts I made yesterday caught them.  Shortest remark is 10 characters, which is really 8 characters since I added start and end spaces.
+Also, found a coding error on extracting nasa-goddard.  Corrected that.
