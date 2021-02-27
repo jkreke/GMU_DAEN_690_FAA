@@ -1,4 +1,5 @@
-brief description of what is in the laser_stageXX.csv files
+This is a brief description of what is in the laser_stageXX.csv files.
+It's also a kind of log of what's changed and what I'm finding as I clean up the data.
 
 
 --------------------------
@@ -48,4 +49,5 @@ dim (51028, 23)
 4 51028          removing duplicates     139
 
 
-
+Note on stage02:
+2/27 (JGK):  I believe Char had said there were some remarks that were empty.  Forgot to look at that yesterday to make that part of stage02 but when I looked for it today, I found none.  Apparently the cuts I made yesterday caught them.  Shortest remark is 10 characters, which is really 8 characters since I added start and end spaces.
