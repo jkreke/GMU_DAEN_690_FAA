@@ -1,6 +1,11 @@
 When you make a change to the data, like add/remove a column, change how it's calculated or obtained, please note it here.  Provide date, your name  and what change you made.  Put your comments below this instruction but above all other comments, leave some space between comments.
 
 
+2021-02-27 Joe
+Changed Time.z format to hh:mm
+Added column for month
+Added column for remark length.  This may be short-lived.  I created it just to look for empty rows.  May no longer be useful.
+no rows removed, still 51059.
 
 
 
