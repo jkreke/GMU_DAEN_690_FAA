@@ -1,3 +1,21 @@
+When you make a change to the data, like add/remove a column, change how it's calculated or obtained, please note it here.  Provide date, your name  and what change you made.  Put your comments below this instruction but above all other comments, leave some space between comments.
+
+
+
+
+
+2021-02-27 Joe
+Changed method of managing data.  copied laser_stage02.csv to laser_current.csv.  This should be the file we use/modify/update.
+
+
+
+
+
+
+
+========================================
+orig information on data
+
 This is a brief description of what is in the laser_stageXX.csv files.
 It's also a kind of log of what's changed and what I'm finding as I clean up the data.
 
@@ -52,3 +70,5 @@ dim (51028, 23)
 Note on stage02:
 2/27 (JGK):  I believe Char had said there were some remarks that were empty.  Forgot to look at that yesterday to make that part of stage02 but when I looked for it today, I found none.  Apparently the cuts I made yesterday caught them.  Shortest remark is 10 characters, which is really 8 characters since I added start and end spaces.
 Also, found a coding error on extracting nasa-goddard.  Corrected that.
+
+
