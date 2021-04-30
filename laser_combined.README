@@ -1,0 +1,315 @@
+
+This file describes the contents of the file "laser_combined.csv" which is the primary master data file created by the GMU DAEN690 team ("Laser Strikers") for the FAA (Spring 2021).  Each field name is listed with a description of what it contains.  Fields marked "Original field" were brought in directly from the original Skywatch Dataset.
+
+
+
+
+X_id
+Original field. Used to merge datasets.
+
+
+
+date
+Original field.
+
+
+
+remarks
+Orignial field with masked PII.
+
+
+
+ncport
+Created field.  FAA designations for Airports and Navigational Aids.
+
+
+
+orig.faa
+Orignial field.
+
+
+
+dest.faa
+Orignal field.
+
+
+
+com.pat
+Created field.  Stands for "Combined Patterns".  Vectors were found in various patterns and collected here.  There were as many as four vector patterns found in a single remark.  Some were incomplete, some were duplicates in a different format.  Most identified the plane's distance from the reference point but a few identified the distance from the plane to the laser striker.   A dollar sign "$" separates the different vectors.
+
+
+
+com.cnt
+Created field.  A count of the vector patterns found in com.pat.
+
+
+
+vectA.dis
+Created field.  Distance in NM for the first vector.
+
+
+
+vectA.dir
+Created field.  Direction in degrees for the first vector.
+
+
+
+vectA.ref
+Created field.  Reference point for the first vector.
+
+
+
+vectB.dis
+Created field.  Distance in NM for the second vector.
+
+
+
+vectB.dir
+Created field.  Direction in degrees for the second vector.
+
+
+
+vectB.ref
+Created field.  Reference point for the second vector.
+
+
+
+vectC.dis
+Created field.  Distance in NM for the third vector.
+
+
+
+vectC.dir
+Created field.  Direction in degrees for the third vector.
+
+
+
+vectC.ref
+Created field.  Reference point for the third vector.
+
+
+
+lon
+Created field.  Longitude for vector A's reference point
+
+
+
+lat
+Created field.  Latitude for vector A's reference point
+
+
+
+lon.Acor
+Created field.  Longitude for the vector A's reference point corrected for vector A's distance and direction.
+
+
+
+lat.Acor
+Created field.  Latitude for the vector A's reference point corrected for vector A's distance and direction.
+
+
+
+pop
+Created field. Population for the city associated with the identified airport.
+
+
+
+den
+Created field.  Population density for the city associated with the identified airport.
+
+
+
+cou
+Created field.  County in which the identified airport is found.
+
+
+
+cit
+Created field.  City associated with the identified airport.
+
+
+
+sta
+Created field. State associated with the identified airport.
+
+
+
+ele
+Created field.  Elevation of the airport. More of these than the "ele.char" field.
+
+
+
+ele.char
+Created field.  Elevation of of the airport.  May be more accurate than the "ele" field.
+
+
+
+DOS
+Created field.  Converted "date" field to local date and time.
+
+
+
+Loc.Date
+Created field.  Same as "DOS" but formatted to just local date.
+
+
+
+Holidays
+Created field.  Identified holiday.  Includes days that turn a holiday into a 4-day weekend.  For instance,
+Friday before a holiday and Tuesday after a holiday turn that holiday into a 4-day weekend.
+
+
+tz
+Created field.  Time Zone in olsen-name format.
+
+
+
+year
+Created field.  Year of the local date-time.
+
+
+
+month
+Created field.  Month of the local date-time.
+
+
+
+week
+Created field.  Week number of the local date-time.
+
+
+
+wday
+Created field.  Day of the week of the local date-time.
+
+
+
+day
+Created field.  Day of the month of the local date-time.
+
+
+
+hour
+Created field.  Hour of the local date-time.
+
+
+
+minute
+Created field.  Minute of the local date-time.
+
+
+
+laser_color.x
+Created field.  Color of the laser (text).
+
+
+
+laser_color.y
+Created field.  Color of the laser (number).
+
+
+
+injuries
+Created field.
+
+
+
+laserClockDir
+Created field.
+
+
+
+degreeLaserDir
+Created field.
+
+
+
+adj.alt
+Created field.
+
+
+
+flightStatus
+Created field.
+
+
+
+tmpf
+Created field.
+
+
+
+vsby
+Created field.
+
+
+
+p01i
+Created field.
+
+
+
+skyc1
+Created field.
+
+
+
+wxcodes
+Created field.
+
+
+
+callsign
+Original field.
+
+
+
+acType
+Original field.
+
+
+
+Model
+Created field.
+
+
+
+Aircraft.Type.Designator
+Created field.
+
+
+
+Class
+Created field.
+
+
+
+ICAO.WTC
+Created field.
+
+
+
+Climb
+Created field.
+
+
+
+Svc.Ceiling.ft
+Created field.
+
+
+
+IQ
+Created field.  Information Quality.  Describes the information contained in the remarks field that the team was able to pull out.  All original fields were excluded (weight=0).  Any field value that was pulled directly from the remarks got a 1.  Any field based on a pulled field got a value between 0 and 1 based on a subjective choice of its worth.  And field not pulled from the remarks either directly or indirectly was weighted as 0 (since it does not reflect the value of the remark field).  Any field value that was missing got a 0 and any legitimate field value got a 1.  Weights then multipled the field values (0s and 1s), then summed and normalized to a 0-1 scale.  
+
+
+
+IQ.pp
+Created field.  Information Quality: PII Penalty.  Each instance of PII type (phone, name, homenum, badgenum, licensenum) got a count of 1 and totals were multiplied by an arbitrarily small value (0.1).
+
+
+
+IQ.delta
+Created field.  Information Quality:  IQ minus PII Penalty.
+
+
