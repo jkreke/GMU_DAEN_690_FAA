@@ -1,0 +1,1260 @@
+[
+  {
+    "Action": {
+      "Operation": "UPPER_CASE",
+      "Parameters": {
+        "sourceColumn": "remarks"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REMOVE_COMBINED",
+      "Parameters": {
+        "collapseConsecutiveWhitespace": "true",
+        "removeAllPunctuation": "false",
+        "removeAllQuotes": "false",
+        "removeAllWhitespace": "false",
+        "removeCustomCharacters": "false",
+        "removeCustomValue": "false",
+        "removeLeadingAndTrailingPunctuation": "false",
+        "removeLeadingAndTrailingQuotes": "false",
+        "removeLeadingAndTrailingWhitespace": "true",
+        "removeLetters": "false",
+        "removeNumbers": "false",
+        "removeSpecialCharacters": "false",
+        "sourceColumn": "remarks"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "GREENLASER",
+        "sourceColumn": "remarks",
+        "value": "GREEN LASER"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "GREN",
+        "sourceColumn": "remarks",
+        "value": "GREEN"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "A GREEN FROM",
+        "sourceColumn": "remarks",
+        "value": "A GREEN LASER FROM"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "ANINTENSEGREEN FLASHING LASER",
+        "sourceColumn": "remarks",
+        "value": "A GREEN LASER"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "GREEN ILLUMINATED",
+        "sourceColumn": "remarks",
+        "value": "GREEN LASER ILLUMINATED"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "GREENPULSATINGLASER",
+        "sourceColumn": "remarks",
+        "value": "GREEN LASER"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "A GREEN AT",
+        "sourceColumn": "remarks",
+        "value": "A GREEN LASER AT"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "AYELLOW",
+        "sourceColumn": "remarks",
+        "value": "YELLOW"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "GREENANDRED",
+        "sourceColumn": "remarks",
+        "value": "GREEN, RED"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "GREEN A LASER",
+        "sourceColumn": "remarks",
+        "value": "A GREEN LASER"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "AREDAND",
+        "sourceColumn": "remarks",
+        "value": "A RED, "
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "ALASER",
+        "sourceColumn": "remarks",
+        "value": "A LASER"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "AGREEN",
+        "sourceColumn": "remarks",
+        "value": "A GREEN"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "GREEEN",
+        "sourceColumn": "remarks",
+        "value": "GREEN"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "WHITELASER",
+        "sourceColumn": "remarks",
+        "value": "WHITE LASER"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "ALSER ",
+        "sourceColumn": "remarks",
+        "value": "LASER "
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "GREEN AND WHILE LASER",
+        "sourceColumn": "remarks",
+        "value": "GREEN, WHITE LASER"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "A GREEN PURPLE",
+        "sourceColumn": "remarks",
+        "value": "A GREEN, PURPLE LASER"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "RED,GREEN AND BLUELASER",
+        "sourceColumn": "remarks",
+        "value": "RED, GREEN, BLUE LASER"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "GREENLASERON",
+        "sourceColumn": "remarks",
+        "value": "GREEN LASER ON"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "REDLASER",
+        "sourceColumn": "remarks",
+        "value": "RED LASER"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "A READ LASER",
+        "sourceColumn": "remarks",
+        "value": "A RED LASER"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "A GREEN WHILE",
+        "sourceColumn": "remarks",
+        "value": "A GREEN LASER WHILE"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "GRN LASER",
+        "sourceColumn": "remarks",
+        "value": "GREEN LASER"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "PILOTREPORTEDAGREENLASERILLUMINATED ",
+        "sourceColumn": "remarks",
+        "value": "PILOT REPORTED A GREEN LASER ILLUMINATED "
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "BLUELASER",
+        "sourceColumn": "remarks",
+        "value": "BLUE LASER"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "BLUE, STATIONARYLASER",
+        "sourceColumn": "remarks",
+        "value": "BLUE LASER"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "ABLUE AND WHITEDLASER",
+        "sourceColumn": "remarks",
+        "value": "A BLUE, WHITE LASER"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "AWHITE AND BLUE FLASHINGLASER",
+        "sourceColumn": "remarks",
+        "value": "A BLUE, WHITE LASER"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "BLUE LED FLASHLASER(FIRST STEADY,THENPULSATING)WHILE SOUTHWEST",
+        "sourceColumn": "remarks",
+        "value": "BLUE LASER WHILE SOUTHWEST"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "AWHITE TACTICALLASER",
+        "sourceColumn": "remarks",
+        "value": "A WHITE LASER"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "ANDPURPLELASER",
+        "sourceColumn": "remarks",
+        "value": "AND PURPLE LASER"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "A PURPLE FROMDIRECTLYUNDERNEATHTHEACFTWHILESE",
+        "sourceColumn": "remarks",
+        "value": "A PURPLE LASER FROM DIRECTLY UNDERNEATH THE ACFT WHILE SE"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "STROBINGLASER",
+        "sourceColumn": "remarks",
+        "value": "STROBING LASER"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "LASWER",
+        "sourceColumn": "remarks",
+        "value": "LASER"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "LASEER",
+        "sourceColumn": "remarks",
+        "value": "LASER"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "BLUD",
+        "sourceColumn": "remarks",
+        "value": "BLUE"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "BLUEN",
+        "sourceColumn": "remarks",
+        "value": "BLUE"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "ABLUR LASER",
+        "sourceColumn": "remarks",
+        "value": "A BLUE LASER"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "ACLUELASER",
+        "sourceColumn": "remarks",
+        "value": "A BLUE LASER"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "BLUR LASER",
+        "sourceColumn": "remarks",
+        "value": "BLUE LASER"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "AYELLOWLASER ",
+        "sourceColumn": "remarks",
+        "value": "A YELLOW LASER "
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "YELLOWLASER",
+        "sourceColumn": "remarks",
+        "value": "YELLOW LASER"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "AAMBER",
+        "sourceColumn": "remarks",
+        "value": "AN AMBER"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "PURPLELASER",
+        "sourceColumn": "remarks",
+        "value": "PURPLE LASER"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "ORANGELASER",
+        "sourceColumn": "remarks",
+        "value": "ORANGE LASER"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "ANDBLUELASER",
+        "sourceColumn": "remarks",
+        "value": "AND BLUE LASER"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "AGREENLASER",
+        "sourceColumn": "remarks",
+        "value": "A GREEN LASER"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "A WHILE LASER",
+        "sourceColumn": "remarks",
+        "value": "A WHITE LASER"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "AWHITE LED /LASER",
+        "sourceColumn": "remarks",
+        "value": "A WHITE LASER"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "AWHITELASER",
+        "sourceColumn": "remarks",
+        "value": "A WHITE LASER"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "AWHITESTROBEFROM",
+        "sourceColumn": "remarks",
+        "value": "A WHITE LASER FROM"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "BY WHILE LASER",
+        "sourceColumn": "remarks",
+        "value": "BY WHITE LASER"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "WHITELASERFROM",
+        "sourceColumn": "remarks",
+        "value": "WHITE LASER FROM"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "WHITELASER",
+        "sourceColumn": "remarks",
+        "value": "WHITE LASER"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "WHITEFLOODLASER",
+        "sourceColumn": "remarks",
+        "value": "WHITE LASER"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "WHITESTROBEWHILE",
+        "sourceColumn": "remarks",
+        "value": "WHITE LASER WHILE"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "WHITE, STROBE LASER",
+        "sourceColumn": "remarks",
+        "value": "WHITE LASER"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "WHITE SEARCH LASER",
+        "sourceColumn": "remarks",
+        "value": "WHITE LASER"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "GREENOR",
+        "sourceColumn": "remarks",
+        "value": "GREEN OR"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "FLASHING LIGHT",
+        "sourceColumn": "remarks",
+        "value": "LASER"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "SPOT LIGHT",
+        "sourceColumn": "remarks",
+        "value": "LASER"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "SPOTLIGHT",
+        "sourceColumn": "remarks",
+        "value": "LASER"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "LIGHT",
+        "sourceColumn": "remarks",
+        "value": "LASER"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "LASERS",
+        "sourceColumn": "remarks",
+        "value": "LASER"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "STROBEFROM",
+        "sourceColumn": "remarks",
+        "value": "LASER FROM"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "LAZER",
+        "sourceColumn": "remarks",
+        "value": "LASER"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "LSER",
+        "sourceColumn": "remarks",
+        "value": "LASER"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "BLINKING LASER",
+        "sourceColumn": "remarks",
+        "value": "LASER"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "FLARE",
+        "sourceColumn": "remarks",
+        "value": "LASER"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "HIGH-INTENSITY LASER",
+        "sourceColumn": "remarks",
+        "value": "LASER"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "HIGH INTENSITY LASER",
+        "sourceColumn": "remarks",
+        "value": "LASER"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "HIGHINTENSITY LASER",
+        "sourceColumn": "remarks",
+        "value": "LASER"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "HIGH-POWERED LASER",
+        "sourceColumn": "remarks",
+        "value": "LASER"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "HIGH POWERED LASER",
+        "sourceColumn": "remarks",
+        "value": "LASER"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "HIGHPOWERED LASER",
+        "sourceColumn": "remarks",
+        "value": "LASER"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "FLASHINGLASER",
+        "sourceColumn": "remarks",
+        "value": "LASER"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "FLASHING LASER",
+        "sourceColumn": "remarks",
+        "value": "LASER"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "FLICKERINGLASER",
+        "sourceColumn": "remarks",
+        "value": "LASER"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "LLASERFROM",
+        "sourceColumn": "remarks",
+        "value": "LASER FROM"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "PULSATING LASER",
+        "sourceColumn": "remarks",
+        "value": "LASER"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "PULSING LASER",
+        "sourceColumn": "remarks",
+        "value": "LASER"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "PULSE LASER",
+        "sourceColumn": "remarks",
+        "value": "LASER"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "STROBING LASER",
+        "sourceColumn": "remarks",
+        "value": "LASER"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "VIOLET",
+        "sourceColumn": "remarks",
+        "value": "PURPLE"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "BLUE-PURPLE",
+        "sourceColumn": "remarks",
+        "value": "PURPLE"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "BLUE-PURPLISH",
+        "sourceColumn": "remarks",
+        "value": "PURPLE"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "BLUISH-PURPLE",
+        "sourceColumn": "remarks",
+        "value": "PURPLE"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "ALAVENDER",
+        "sourceColumn": "remarks",
+        "value": "PURPLE"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "MAGENTA",
+        "sourceColumn": "remarks",
+        "value": "RED"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "GREEN AND RED",
+        "sourceColumn": "remarks",
+        "value": "GREEN, RED"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "RED AND GREEN",
+        "sourceColumn": "remarks",
+        "value": "GREEN, RED"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "GREEN-RED",
+        "sourceColumn": "remarks",
+        "value": "GREEN, RED"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "GREEN/RED",
+        "sourceColumn": "remarks",
+        "value": "GREEN, RED"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "GREEN AND BLUE",
+        "sourceColumn": "remarks",
+        "value": "GREEN, BLUE"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "BLUE AND GREEN",
+        "sourceColumn": "remarks",
+        "value": "GREEN, BLUE"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "GREEN OR BLUE",
+        "sourceColumn": "remarks",
+        "value": "GREEN, BLUE"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "GREEN AND WHITE",
+        "sourceColumn": "remarks",
+        "value": "GREEN, WHITE"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "GREEN OR WHITE",
+        "sourceColumn": "remarks",
+        "value": "GREEN, WHITE"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "YELLOW/GREEN",
+        "sourceColumn": "remarks",
+        "value": "GREEN, YELLOW"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "GREENISH-YELLOW",
+        "sourceColumn": "remarks",
+        "value": "GREEN, YELLOW"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "GREEN/YELLOW",
+        "sourceColumn": "remarks",
+        "value": "GREEN, YELLOW"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "WHITE/GREEN, YELLOWISH",
+        "sourceColumn": "remarks",
+        "value": "GREEN, YELLOW"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "GREEN AND ORANGE",
+        "sourceColumn": "remarks",
+        "value": "GREEN, ORANGE"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "YELLOW/ORANGE",
+        "sourceColumn": "remarks",
+        "value": "YELLOW, ORANGE"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "AMBER",
+        "sourceColumn": "remarks",
+        "value": "YELLOW, ORANGE"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "GREEN, WHITE AND BLUE",
+        "sourceColumn": "remarks",
+        "value": "GREEN, WHITE, BLUE"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "GREEN, RED AND BLUE",
+        "sourceColumn": "remarks",
+        "value": "GREEN, RED, BLUE"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "GREEN RED AND BLUEAT",
+        "sourceColumn": "remarks",
+        "value": "GREEN, RED, BLUE LASER AT"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "ARED, GREEN AND PURPLELASER",
+        "sourceColumn": "remarks",
+        "value": "A GREEN, RED, PURPLE LASER"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "MULTI-COLORED",
+        "sourceColumn": "remarks",
+        "value": "MULTI-COLOR"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "MULTICOLOR",
+        "sourceColumn": "remarks",
+        "value": "MULTI-COLOR"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "MULTI COLORED",
+        "sourceColumn": "remarks",
+        "value": "MULTI-COLOR"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "MULTICOLORED",
+        "sourceColumn": "remarks",
+        "value": "MULTI-COLOR"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "MULTI-COLORRED",
+        "sourceColumn": "remarks",
+        "value": "MULTI-COLOR"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "MULTIPLE COLOR LASER",
+        "sourceColumn": "remarks",
+        "value": "MULTI-COLOR LASER"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "LASER (CHANGINGCOLORS)ILLUMINATED",
+        "sourceColumn": "remarks",
+        "value": "MULTI-COLOR LASER ILLUMINATED"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "ABLUESTROBE LASERWHILEWNW",
+        "sourceColumn": "remarks",
+        "value": "A BLUES LASERWHILE WNW"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "AWHITELASER",
+        "sourceColumn": "remarks",
+        "value": "A WHITE LASER"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "BLUE LED LASER",
+        "sourceColumn": "remarks",
+        "value": "BLUE LASER"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "GREEN SWEEPING LASER",
+        "sourceColumn": "remarks",
+        "value": "GREEN LASER"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "GREEN-YELLOWISH",
+        "sourceColumn": "remarks",
+        "value": "GREEN, YELLOW"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "HIGH-POWERED BLUE LED FLASHLASER(FIRST STEADY,THENPULSATING)WHILE SOUTHWEST",
+        "sourceColumn": "remarks",
+        "value": "BLUE LASER WHILE SOUTHWEST"
+      }
+    }
+  }
+]
