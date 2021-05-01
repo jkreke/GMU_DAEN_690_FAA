@@ -140,7 +140,9 @@ Created field.  Elevation of the airport. More of these than the "ele.char" fiel
 
 
 ele.char
-Created field.  Elevation of of the airport.  May be more accurate than the "ele" field.
+Created field.  Elevation of of the airport.  May be more accurate than the "ele" field. 
+Included values from ele column and addtional values obtained via manual internet searches for 
+locations missing from ele field needed for AGL altitude adjustments.
 
 
 
@@ -201,18 +203,19 @@ Created field.  Minute of the local date-time.
 
 laser_color.x
 Created field.  Color of the laser (text).
-
-
+Value extracted from remarks field using AWS Glue DataBrew. 
+Some values changed/merged to smaller set of values for data analysis purposes.
 
 laser_color.y
 Created field.  Color of the laser (number).
-
+Number scale for laser_color.x values for data analysis purposes.
 
 
 injuries
 Created field.
-
-
+Value extracted from remarks field using AWS Glue DataBrew.
+Some values changed/merged to smaller set of values and then tranlated to a number scale for data analysis purposes.
+Number scale: 0 = Unknown, 1 = None, 2 = Other, 3 = Visual Disturbance, 4 = Pain, 5 = Blindness
 
 laserClockDir
 Created field.
@@ -225,8 +228,9 @@ Created field.
 
 
 adj.alt
-Created field.
-
+Created field. Altitude reported in feet.
+Altitude value extracted from remarks field using AWS Glue DataBrew.  Altitudes reported as Flight Level (FL) adjusted to feet.
+Altitudes reported as AGL adjusted to MSL using value from ele.char field.
 
 
 flightStatus
