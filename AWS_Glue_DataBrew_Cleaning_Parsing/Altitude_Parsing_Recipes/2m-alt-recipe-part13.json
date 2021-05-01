@@ -1,0 +1,142 @@
+[
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "350 8500",
+        "sourceColumn": "remarks",
+        "value": "350 8500 FEET"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "3500 15",
+        "sourceColumn": "remarks",
+        "value": "3500 FEET 15 NM"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "35007 SE",
+        "sourceColumn": "remarks",
+        "value": "3500 FEET 7 NM SE "
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "4000 10",
+        "sourceColumn": "remarks",
+        "value": "4000 FEET 10 NM"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "4000 15",
+        "sourceColumn": "remarks",
+        "value": "4000 FEET 15 NM"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "4000 5",
+        "sourceColumn": "remarks",
+        "value": "4000 FEET 5 NM"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "4500 11",
+        "sourceColumn": "remarks",
+        "value": "4500 FEET 11 NM"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "AT8200 OVER",
+        "sourceColumn": "remarks",
+        "value": "AT 8200 FEET OVER"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "AT9000FEET",
+        "sourceColumn": "remarks",
+        "value": "AT 9000 FEET"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "DESCENDINGFROM 050 TO 030",
+        "sourceColumn": "remarks",
+        "value": "DESCENDING AT AROUND 040 FEET"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "FAT1000AGL6",
+        "sourceColumn": "remarks",
+        "value": "AT 1000 FEET AGL 6 NM"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "FROM 1000 TO 1500FEET",
+        "sourceColumn": "remarks",
+        "value": "AT AROUND 1250 FEET"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "MANEUVERINGAT2000FEET",
+        "sourceColumn": "remarks",
+        "value": "MANEUVERING AT 2000 FEET"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "RY34CAT1200FEETAT",
+        "sourceColumn": "remarks",
+        "value": "RY34C AT 1200 FEET AT"
+      }
+    }
+  }
+]

@@ -1,0 +1,1134 @@
+[
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "';",
+        "sourceColumn": "remarks",
+        "value": "FEET;"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "EXTRACT_PATTERN",
+      "Parameters": {
+        "pattern": "(\\d+)[^\\d]+FEET",
+        "sourceColumn": "remarks",
+        "targetColumn": "alt1"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REMOVE_COMBINED",
+      "Parameters": {
+        "collapseConsecutiveWhitespace": "false",
+        "customValue": " FEET",
+        "removeAllPunctuation": "false",
+        "removeAllQuotes": "false",
+        "removeAllWhitespace": "false",
+        "removeCustomCharacters": "false",
+        "removeCustomValue": "true",
+        "removeLeadingAndTrailingPunctuation": "false",
+        "removeLeadingAndTrailingQuotes": "false",
+        "removeLeadingAndTrailingWhitespace": "false",
+        "removeLetters": "false",
+        "removeNumbers": "false",
+        "removeSpecialCharacters": "false",
+        "sourceColumn": "alt1"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "EXTRACT_PATTERN",
+      "Parameters": {
+        "pattern": "UNKNOWN ALTITUDE",
+        "sourceColumn": "remarks",
+        "targetColumn": "alt2"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REMOVE_COMBINED",
+      "Parameters": {
+        "collapseConsecutiveWhitespace": "false",
+        "customValue": " ALTITUDE",
+        "removeAllPunctuation": "false",
+        "removeAllQuotes": "false",
+        "removeAllWhitespace": "false",
+        "removeCustomCharacters": "false",
+        "removeCustomValue": "true",
+        "removeLeadingAndTrailingPunctuation": "false",
+        "removeLeadingAndTrailingQuotes": "false",
+        "removeLeadingAndTrailingWhitespace": "false",
+        "removeLetters": "false",
+        "removeNumbers": "false",
+        "removeSpecialCharacters": "false",
+        "sourceColumn": "alt2"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "EXTRACT_PATTERN",
+      "Parameters": {
+        "pattern": "NO ALTITUDE",
+        "sourceColumn": "remarks",
+        "targetColumn": "alt4"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "NO ALTITUDE",
+        "sourceColumn": "alt4",
+        "value": "UNKNOWN"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "EXTRACT_PATTERN",
+      "Parameters": {
+        "pattern": "ALTITUDE AND DIRECTION OF LASER NOT REPORTED",
+        "sourceColumn": "remarks",
+        "targetColumn": "alt5"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "ALTITUDE AND DIRECTION OF LASER NOT REPORTED",
+        "sourceColumn": "alt5",
+        "value": "UNKNOWN"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "EXTRACT_PATTERN",
+      "Parameters": {
+        "pattern": "ALT UNKN",
+        "sourceColumn": "remarks",
+        "targetColumn": "alt6"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "ALT UNKN",
+        "sourceColumn": "alt6",
+        "value": "UNKNOWN"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "EXTRACT_PATTERN",
+      "Parameters": {
+        "pattern": "UNREPORTED ALTITUDE",
+        "sourceColumn": "remarks",
+        "targetColumn": "alt7"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "UNREPORTED ALTITUDE",
+        "sourceColumn": "alt7",
+        "value": "UNKNOWN"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "EXTRACT_PATTERN",
+      "Parameters": {
+        "pattern": "ALT +(\\d+)[^\\d]",
+        "sourceColumn": "remarks",
+        "targetColumn": "alt8"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "EXTRACT_PATTERN",
+      "Parameters": {
+        "pattern": "ALTITUDE +(\\d+)[^\\d]",
+        "sourceColumn": "remarks",
+        "targetColumn": "alt9"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "EXTRACT_PATTERN",
+      "Parameters": {
+        "pattern": "UNKNOWN ALT",
+        "sourceColumn": "remarks",
+        "targetColumn": "alt10"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "UNKNOWN ALT",
+        "sourceColumn": "alt10",
+        "value": "UNKNOWN"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "EXTRACT_PATTERN",
+      "Parameters": {
+        "pattern": "ALTITUDE UNKNOWN",
+        "sourceColumn": "remarks",
+        "targetColumn": "alt11"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REMOVE_COMBINED",
+      "Parameters": {
+        "collapseConsecutiveWhitespace": "false",
+        "customValue": "ALTITUDE ",
+        "removeAllPunctuation": "false",
+        "removeAllQuotes": "false",
+        "removeAllWhitespace": "false",
+        "removeCustomCharacters": "false",
+        "removeCustomValue": "true",
+        "removeLeadingAndTrailingPunctuation": "false",
+        "removeLeadingAndTrailingQuotes": "false",
+        "removeLeadingAndTrailingWhitespace": "false",
+        "removeLetters": "false",
+        "removeNumbers": "false",
+        "removeSpecialCharacters": "false",
+        "sourceColumn": "alt11"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "EXTRACT_PATTERN",
+      "Parameters": {
+        "pattern": "FL +(\\d+)[^\\d]",
+        "sourceColumn": "remarks",
+        "targetColumn": "alt12"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "ADD_SUFFIX",
+      "Parameters": {
+        "pattern": "00",
+        "sourceColumn": "alt12"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REMOVE_COMBINED",
+      "Parameters": {
+        "collapseConsecutiveWhitespace": "false",
+        "removeAllPunctuation": "false",
+        "removeAllQuotes": "false",
+        "removeAllWhitespace": "false",
+        "removeCustomCharacters": "false",
+        "removeCustomValue": "false",
+        "removeLeadingAndTrailingPunctuation": "false",
+        "removeLeadingAndTrailingQuotes": "false",
+        "removeLeadingAndTrailingWhitespace": "false",
+        "removeLetters": "false",
+        "removeNumbers": "false",
+        "removeSpecialCharacters": "true",
+        "sourceColumn": "alt12"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REMOVE_COMBINED",
+      "Parameters": {
+        "collapseConsecutiveWhitespace": "false",
+        "customValue": "FL ",
+        "removeAllPunctuation": "false",
+        "removeAllQuotes": "false",
+        "removeAllWhitespace": "false",
+        "removeCustomCharacters": "false",
+        "removeCustomValue": "true",
+        "removeLeadingAndTrailingPunctuation": "false",
+        "removeLeadingAndTrailingQuotes": "false",
+        "removeLeadingAndTrailingWhitespace": "false",
+        "removeLetters": "false",
+        "removeNumbers": "false",
+        "removeSpecialCharacters": "false",
+        "sourceColumn": "alt12"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": " 00",
+        "sourceColumn": "alt12",
+        "value": "00"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "EXTRACT_PATTERN",
+      "Parameters": {
+        "pattern": "AGL",
+        "sourceColumn": "remarks",
+        "targetColumn": "AGL"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "EXTRACT_PATTERN",
+      "Parameters": {
+        "pattern": "MSL",
+        "sourceColumn": "remarks",
+        "targetColumn": "MSL"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "MERGE",
+      "Parameters": {
+        "sourceColumns": "[\"MSL\",\"AGL\"]",
+        "targetColumn": "AGL_MSL"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REMOVE_COMBINED",
+      "Parameters": {
+        "collapseConsecutiveWhitespace": "false",
+        "customValue": "ALT",
+        "removeAllPunctuation": "false",
+        "removeAllQuotes": "false",
+        "removeAllWhitespace": "false",
+        "removeCustomCharacters": "false",
+        "removeCustomValue": "true",
+        "removeLeadingAndTrailingPunctuation": "false",
+        "removeLeadingAndTrailingQuotes": "false",
+        "removeLeadingAndTrailingWhitespace": "false",
+        "removeLetters": "false",
+        "removeNumbers": "false",
+        "removeSpecialCharacters": "false",
+        "sourceColumn": "alt8"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REMOVE_COMBINED",
+      "Parameters": {
+        "collapseConsecutiveWhitespace": "false",
+        "customValue": "ALTITUDE",
+        "removeAllPunctuation": "false",
+        "removeAllQuotes": "false",
+        "removeAllWhitespace": "false",
+        "removeCustomCharacters": "false",
+        "removeCustomValue": "true",
+        "removeLeadingAndTrailingPunctuation": "false",
+        "removeLeadingAndTrailingQuotes": "false",
+        "removeLeadingAndTrailingWhitespace": "false",
+        "removeLetters": "false",
+        "removeNumbers": "false",
+        "removeSpecialCharacters": "false",
+        "sourceColumn": "alt9"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "EXTRACT_PATTERN",
+      "Parameters": {
+        "pattern": "FL+(\\d+)[^\\d]",
+        "sourceColumn": "remarks",
+        "targetColumn": "alt3_2"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REMOVE_COMBINED",
+      "Parameters": {
+        "collapseConsecutiveWhitespace": "false",
+        "customValue": "FL",
+        "removeAllPunctuation": "false",
+        "removeAllQuotes": "false",
+        "removeAllWhitespace": "false",
+        "removeCustomCharacters": "false",
+        "removeCustomValue": "true",
+        "removeLeadingAndTrailingPunctuation": "false",
+        "removeLeadingAndTrailingQuotes": "false",
+        "removeLeadingAndTrailingWhitespace": "false",
+        "removeLetters": "false",
+        "removeNumbers": "false",
+        "removeSpecialCharacters": "false",
+        "sourceColumn": "alt3_2"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "ADD_SUFFIX",
+      "Parameters": {
+        "pattern": "00",
+        "sourceColumn": "alt3_2"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REMOVE_COMBINED",
+      "Parameters": {
+        "collapseConsecutiveWhitespace": "false",
+        "removeAllPunctuation": "false",
+        "removeAllQuotes": "false",
+        "removeAllWhitespace": "false",
+        "removeCustomCharacters": "false",
+        "removeCustomValue": "false",
+        "removeLeadingAndTrailingPunctuation": "false",
+        "removeLeadingAndTrailingQuotes": "false",
+        "removeLeadingAndTrailingWhitespace": "false",
+        "removeLetters": "false",
+        "removeNumbers": "false",
+        "removeSpecialCharacters": "true",
+        "sourceColumn": "alt3_2"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": " 00",
+        "sourceColumn": "alt3_2",
+        "value": "00"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "EXTRACT_PATTERN",
+      "Parameters": {
+        "pattern": "ALTITUDE AND DIRECTION UNKNOWN",
+        "sourceColumn": "remarks",
+        "targetColumn": "alt13"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "ALTITUDE AND DIRECTION UNKNOWN",
+        "sourceColumn": "alt13",
+        "value": "UNKNOWN"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "EXTRACT_PATTERN",
+      "Parameters": {
+        "pattern": "ALTITUDE WAS NOT REPORTED",
+        "sourceColumn": "remarks",
+        "targetColumn": "alt14"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "ALTITUDE WAS NOT REPORTED",
+        "sourceColumn": "alt14",
+        "value": "UNKNOWN"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "EXTRACT_PATTERN",
+      "Parameters": {
+        "pattern": "TAXIING",
+        "sourceColumn": "remarks",
+        "targetColumn": "taxiing"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "EXTRACT_PATTERN",
+      "Parameters": {
+        "pattern": "TAXIWAY",
+        "sourceColumn": "remarks",
+        "targetColumn": "TWY"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "EXTRACT_PATTERN",
+      "Parameters": {
+        "pattern": "PARKED AT GATE",
+        "sourceColumn": "remarks",
+        "targetColumn": "GATE"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "EXTRACT_PATTERN",
+      "Parameters": {
+        "pattern": "CROSSING THE NUMBERS",
+        "sourceColumn": "remarks",
+        "targetColumn": "CROSSINGNUMBERS"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "EXTRACT_PATTERN",
+      "Parameters": {
+        "pattern": "DEPARTURE ROLL",
+        "sourceColumn": "remarks",
+        "targetColumn": "DROLL"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "EXTRACT_PATTERN",
+      "Parameters": {
+        "pattern": "TAKE OFF ROLL",
+        "sourceColumn": "remarks",
+        "targetColumn": "TROLL"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "EXTRACT_PATTERN",
+      "Parameters": {
+        "pattern": "DEPARTURE RWY",
+        "sourceColumn": "remarks",
+        "targetColumn": "DRWY"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "EXTRACT_PATTERN",
+      "Parameters": {
+        "pattern": "AIRCRAFT ON RAMP",
+        "sourceColumn": "remarks",
+        "targetColumn": "ON_RAMP"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "EXTRACT_PATTERN",
+      "Parameters": {
+        "pattern": "DEPARTING RUNWAY",
+        "sourceColumn": "remarks",
+        "targetColumn": "DEP_RWY"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "EXTRACT_PATTERN",
+      "Parameters": {
+        "pattern": "PUSHED FROM GATE",
+        "sourceColumn": "remarks",
+        "targetColumn": "PUSH_GATE"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "EXTRACT_PATTERN",
+      "Parameters": {
+        "pattern": "TAKEOFF ROLL",
+        "sourceColumn": "remarks",
+        "targetColumn": "TROLL2"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "EXTRACT_PATTERN",
+      "Parameters": {
+        "pattern": "WHILE TAXING",
+        "sourceColumn": "remarks",
+        "targetColumn": "TAXI2"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "EXTRACT_PATTERN",
+      "Parameters": {
+        "pattern": "DEPARTING RWY",
+        "sourceColumn": "remarks",
+        "targetColumn": "DEP_RWY3"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "EXTRACT_PATTERN",
+      "Parameters": {
+        "pattern": "DEPARTURE ROTATION",
+        "sourceColumn": "remarks",
+        "targetColumn": "DROT"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "MERGE",
+      "Parameters": {
+        "sourceColumns": "[\"DROT\",\"DEP_RWY3\",\"TROLL2\",\"PUSH_GATE\",\"DEP_RWY\",\"ON_RAMP\",\"DRWY\",\"TROLL\",\"DROLL\",\"CROSSINGNUMBERS\",\"GATE\",\"TWY\",\"taxiing\",\"TAXI2\"]",
+        "targetColumn": "GROUND"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "DEPARTING RWY",
+        "sourceColumn": "GROUND",
+        "value": "0"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "TAXIING",
+        "sourceColumn": "GROUND",
+        "value": "0"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "WHILE TAXING",
+        "sourceColumn": "GROUND",
+        "value": "0"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "TAXIWAY",
+        "sourceColumn": "GROUND",
+        "value": "0"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "PARKED AT GATE",
+        "sourceColumn": "GROUND",
+        "value": "0"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "CROSSING THE NUMBERS",
+        "sourceColumn": "GROUND",
+        "value": "0"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "DEPARTURE ROLL",
+        "sourceColumn": "GROUND",
+        "value": "0"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "TAKE OFF ROLL",
+        "sourceColumn": "GROUND",
+        "value": "0"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "TAKEOFF ROLL",
+        "sourceColumn": "GROUND",
+        "value": "0"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "AIRCRAFT ON RAMP",
+        "sourceColumn": "GROUND",
+        "value": "0"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "DEPARTURE RWY",
+        "sourceColumn": "GROUND",
+        "value": "0"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "DEPARTING RUNWAY",
+        "sourceColumn": "GROUND",
+        "value": "0"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "PUSHED FROM GATE",
+        "sourceColumn": "GROUND",
+        "value": "0"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "DEPARTURE ROTATION",
+        "sourceColumn": "GROUND",
+        "value": "0"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "MERGE",
+      "Parameters": {
+        "sourceColumns": "[\"GROUND\",\"alt14\",\"alt13\",\"alt3_2\",\"alt12\",\"alt11\",\"alt10\",\"alt9\",\"alt8\",\"alt7\",\"alt6\",\"alt5\",\"alt4\",\"alt2\",\"alt1\"]",
+        "targetColumn": "alt_feet"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "(\\d+)[^\\d]+UNKNOWN",
+        "sourceColumn": "alt_feet",
+        "value": "UNKNOWN"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "UNKNOWN+(\\d+)[^\\d]",
+        "sourceColumn": "alt_feet",
+        "value": "(\\d+)[^\\d]+FEET"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "UNKNOWN+(\\d+)[^\\d]+UNKNOWN",
+        "sourceColumn": "alt_feet",
+        "value": "UNKNOWN"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "UNKNOWN UNKNOWN",
+        "sourceColumn": "alt_feet",
+        "value": "UNKNOWN"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "UNKNOWNUNKNOWN",
+        "sourceColumn": "alt_feet",
+        "value": "UNKNOWN"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "50 NM SOUTH OF MOFFEET",
+        "sourceColumn": "alt_feet",
+        "value": "11000"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "3000 OVER NUQNO INJURIES REPORTEDMOFFEET",
+        "sourceColumn": "alt_feet",
+        "value": "3000"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "4500 IN THE VICINITY OF MOFFEET FIELD CANO INJURIES REPORTEDMOFFEET",
+        "sourceColumn": "alt_feet",
+        "value": "4500"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "UNKNOWN3000",
+        "sourceColumn": "alt_feet",
+        "value": "3000"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "DCA32800652000",
+        "sourceColumn": "alt_feet",
+        "value": "52000"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": " 130 UNKNOWN",
+        "sourceColumn": "alt_feet",
+        "value": "130"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "12 UNKNOWN",
+        "sourceColumn": "alt_feet",
+        "value": "UNKNOWN"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "5 UNKNOWN",
+        "sourceColumn": "alt_feet",
+        "value": "UNKNOWN"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "UNKNOWN UNKNOWN",
+        "sourceColumn": "alt_feet",
+        "value": "UNKNOWN"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "1800016000",
+        "sourceColumn": "alt_feet",
+        "value": "17000"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "2600026000",
+        "sourceColumn": "alt_feet",
+        "value": "26000"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "32800652000",
+        "sourceColumn": "alt_feet",
+        "value": "52000"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": " 20000 20000",
+        "sourceColumn": "alt_feet",
+        "value": "20000"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": " 10000 10000",
+        "sourceColumn": "alt_feet",
+        "value": "10000"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_BETWEEN_POSITIONS",
+      "Parameters": {
+        "endPosition": "10",
+        "sourceColumn": "alt_feet",
+        "startPosition": "5",
+        "value": ","
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REMOVE_COMBINED",
+      "Parameters": {
+        "collapseConsecutiveWhitespace": "false",
+        "removeAllPunctuation": "false",
+        "removeAllQuotes": "false",
+        "removeAllWhitespace": "false",
+        "removeCustomCharacters": "false",
+        "removeCustomValue": "false",
+        "removeLeadingAndTrailingPunctuation": "false",
+        "removeLeadingAndTrailingQuotes": "false",
+        "removeLeadingAndTrailingWhitespace": "false",
+        "removeLetters": "false",
+        "removeNumbers": "false",
+        "removeSpecialCharacters": "true",
+        "sourceColumn": "alt_feet"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "7 UN",
+        "sourceColumn": "alt_feet",
+        "value": "UNKNOWN"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "UNKN",
+        "sourceColumn": "alt_feet",
+        "value": "UNKNOWN"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "UNKNOWNNO",
+        "sourceColumn": "alt_feet",
+        "value": "UNKNOWN"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "UNKNO",
+        "sourceColumn": "alt_feet",
+        "value": "UNKNOWN"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "UNKNOWNWN",
+        "sourceColumn": "alt_feet",
+        "value": "UNKNOWN"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "UNKNOWNNO",
+        "sourceColumn": "alt_feet",
+        "value": "UNKNOWN"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "UNKNOWNOWN",
+        "sourceColumn": "alt_feet",
+        "value": "UNKNOWN"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "7 UNWN",
+        "sourceColumn": "alt_feet",
+        "value": "UNKNOWN"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "UNKNOWNNO",
+        "sourceColumn": "alt_feet",
+        "value": "UNKNOWN"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "UNKNOWN",
+        "sourceColumn": "alt_feet",
+        "value": ","
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "O",
+        "sourceColumn": "alt_feet",
+        "value": ","
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REMOVE_COMBINED",
+      "Parameters": {
+        "collapseConsecutiveWhitespace": "false",
+        "removeAllPunctuation": "false",
+        "removeAllQuotes": "false",
+        "removeAllWhitespace": "false",
+        "removeCustomCharacters": "false",
+        "removeCustomValue": "false",
+        "removeLeadingAndTrailingPunctuation": "false",
+        "removeLeadingAndTrailingQuotes": "false",
+        "removeLeadingAndTrailingWhitespace": "false",
+        "removeLetters": "false",
+        "removeNumbers": "false",
+        "removeSpecialCharacters": "true",
+        "sourceColumn": "alt_feet"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "CHANGE_DATA_TYPE",
+      "Parameters": {
+        "columnDataType": "float",
+        "sourceColumn": "alt_feet"
+      }
+    }
+  }
+]

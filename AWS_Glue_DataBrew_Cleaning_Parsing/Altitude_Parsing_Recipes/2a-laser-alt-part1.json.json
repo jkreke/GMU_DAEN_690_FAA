@@ -1,0 +1,1372 @@
+[
+  {
+    "Action": {
+      "Operation": "REMOVE_COMBINED",
+      "Parameters": {
+        "collapseConsecutiveWhitespace": "false",
+        "removeAllPunctuation": "true",
+        "removeAllQuotes": "false",
+        "removeAllWhitespace": "false",
+        "removeCustomCharacters": "false",
+        "removeCustomValue": "false",
+        "removeLeadingAndTrailingPunctuation": "false",
+        "removeLeadingAndTrailingQuotes": "false",
+        "removeLeadingAndTrailingWhitespace": "false",
+        "removeLetters": "false",
+        "removeNumbers": "false",
+        "removeSpecialCharacters": "false",
+        "sourceColumn": "remarks"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "NM",
+        "sourceColumn": "remarks",
+        "value": " NM"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "0IVO",
+        "sourceColumn": "remarks",
+        "value": "0 IVO"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "0VCNTY",
+        "sourceColumn": "remarks",
+        "value": "0 VCNTY"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "0VICINITY",
+        "sourceColumn": "remarks",
+        "value": "0 VICINITY"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "0OVER",
+        "sourceColumn": "remarks",
+        "value": "0 OVER"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "O 'CLOCK",
+        "sourceColumn": "remarks",
+        "value": "O'CLOCK"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "O' CLOCK",
+        "sourceColumn": "remarks",
+        "value": "O'CLOCK"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "12’000’",
+        "sourceColumn": "remarks",
+        "value": "12000’"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "4 000",
+        "sourceColumn": "remarks",
+        "value": "4000"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "7 000",
+        "sourceColumn": "remarks",
+        "value": "7000"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "9 000",
+        "sourceColumn": "remarks",
+        "value": "9000"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "10 000",
+        "sourceColumn": "remarks",
+        "value": "10000"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "AT11500'12SE",
+        "sourceColumn": "remarks",
+        "value": "AT 11500’ FEET 12 NM SE"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "10000 15E",
+        "sourceColumn": "remarks",
+        "value": "10000 FEET 15 NM E"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "2700' 4NW ",
+        "sourceColumn": "remarks",
+        "value": "2700 FEET 4 NM NW "
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "6000' 20NNW ",
+        "sourceColumn": "remarks",
+        "value": "6000 FEET 20 NM NNW "
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "2000' 20ESE ",
+        "sourceColumn": "remarks",
+        "value": "2000 FEET  20 NM ESE "
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "4500' 5SE ",
+        "sourceColumn": "remarks",
+        "value": "4500 FEET  5 NM SE "
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "3000AGL5NM",
+        "sourceColumn": "remarks",
+        "value": "3000 FEET AGL 5 NM"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "1200’ 3 ",
+        "sourceColumn": "remarks",
+        "value": " 1200 FEET 3 "
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "9000’ 15",
+        "sourceColumn": "remarks",
+        "value": "9000 FEET 15"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": " 3800’6 ",
+        "sourceColumn": "remarks",
+        "value": "3800 FEET 6 "
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "6000MSL3NMNW",
+        "sourceColumn": "remarks",
+        "value": "6000 FEEET MSL 3 NM NW"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "8000 18E",
+        "sourceColumn": "remarks",
+        "value": "8000 FEET 18 NM E"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "FEETNO",
+        "sourceColumn": "remarks",
+        "value": "FEET NO"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "3000AGL25NM",
+        "sourceColumn": "remarks",
+        "value": "3000 FEET AGL 25 NM"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "3000AGL3NM",
+        "sourceColumn": "remarks",
+        "value": "3000 FEET AGL 3 NM"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "2500' 6NE ",
+        "sourceColumn": "remarks",
+        "value": "2500 FEET 6 NM NE "
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "5000MSL",
+        "sourceColumn": "remarks",
+        "value": "5000 FEET MSL"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "12000'12NNW",
+        "sourceColumn": "remarks",
+        "value": "12000 FEET 12 NM NNW"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "4800 8E",
+        "sourceColumn": "remarks",
+        "value": "4800 FEET 8 NM E"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "2200AGL9NM",
+        "sourceColumn": "remarks",
+        "value": "2200 FEET AGL 9 NM"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "NO INJURIES PROVIDED ",
+        "sourceColumn": "remarks",
+        "value": "FEET NO INJURIES PROVIDED "
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "DCA250080FL100EASTBOUNDGREEN LASERLEFTSIDEOFAIRCRAFTCOCKPITILLUMINATEDNOREPORTEDINJURIESELKTONPOLICEDEPARTMENTNOTIFIED ATXXXXXXX140248",
+        "sourceColumn": "remarks",
+        "value": "DCA250080 FL100 EAST BOUND GREEN LASER LEFT SIDE OF AIRCRAFT COCKPIT ILLUMINATED NO REPORTED INJURIES ELKTON POLICE DEPARTMENT NOTIFIED AT XXXXXXX140248"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "FEET FEET NO INJURIES PROVIDED ",
+        "sourceColumn": "remarks",
+        "value": "FEET NO INJURIES PROVIDED "
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "FEETAND",
+        "sourceColumn": "remarks",
+        "value": "FEET AND"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "' ",
+        "sourceColumn": "remarks",
+        "value": " FEET"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "';",
+        "sourceColumn": "remarks",
+        "value": " FEET"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "';ACFT",
+        "sourceColumn": "remarks",
+        "value": " FEET; ACFT"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "'; ACFT",
+        "sourceColumn": "remarks",
+        "value": "FEET; ACFT"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "' ON ",
+        "sourceColumn": "remarks",
+        "value": " FEET ON"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "AGL FEET",
+        "sourceColumn": "remarks",
+        "value": "FEET AGL"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "AGLFEET",
+        "sourceColumn": "remarks",
+        "value": "FEET AGL"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "AGL FT",
+        "sourceColumn": "remarks",
+        "value": "FEET AGL"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "AGLFT",
+        "sourceColumn": "remarks",
+        "value": "FEET AGL"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "'AGL",
+        "sourceColumn": "remarks",
+        "value": "FEET AGL"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "' AGL",
+        "sourceColumn": "remarks",
+        "value": "FEET AGL"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "MSL FEET",
+        "sourceColumn": "remarks",
+        "value": "FEET MSL"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "MSLFEET",
+        "sourceColumn": "remarks",
+        "value": "FEET MSL"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "MSLFT",
+        "sourceColumn": "remarks",
+        "value": "FEET MSL"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "MSL FT",
+        "sourceColumn": "remarks",
+        "value": "FEET MSL"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "' MSL",
+        "sourceColumn": "remarks",
+        "value": "FEET MSL"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "'MSL",
+        "sourceColumn": "remarks",
+        "value": "FEET MSL"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "1000AGL ",
+        "sourceColumn": "remarks",
+        "value": "1000 FEET AGL "
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "1500AGL",
+        "sourceColumn": "remarks",
+        "value": "1500 FEET AGL"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "2000AGL",
+        "sourceColumn": "remarks",
+        "value": "2000 FEET AGL"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "2500AGL",
+        "sourceColumn": "remarks",
+        "value": "2500 FEET AGL"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "3000AGL",
+        "sourceColumn": "remarks",
+        "value": "3000 FEET AGL"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "4000MSL",
+        "sourceColumn": "remarks",
+        "value": "4000 FEET MSL"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "4500MSL",
+        "sourceColumn": "remarks",
+        "value": "4500 FEET MSL"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "6000MSL",
+        "sourceColumn": "remarks",
+        "value": "6000 FEET MSL"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "8000MSL",
+        "sourceColumn": "remarks",
+        "value": "8000 FEET MSL"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "12000MSL",
+        "sourceColumn": "remarks",
+        "value": "12000 FEET MSL"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "BFL170005",
+        "sourceColumn": "remarks",
+        "value": "BF-L170005"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "FLL285016",
+        "sourceColumn": "remarks",
+        "value": "(HEADING?) 285016"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "FFL340015 ",
+        "sourceColumn": "remarks",
+        "value": "FF-L340015 "
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "EFL352012 ",
+        "sourceColumn": "remarks",
+        "value": "EF-L352012 "
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "11500‚Äô ",
+        "sourceColumn": "remarks",
+        "value": "11500"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "FL250-15000",
+        "sourceColumn": "remarks",
+        "value": "FL250 TO 15000"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "ORNO",
+        "sourceColumn": "remarks",
+        "value": "OR NO"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "FEETFEET",
+        "sourceColumn": "remarks",
+        "value": "FEET"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "FEET FEET",
+        "sourceColumn": "remarks",
+        "value": "FEET"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "MILES",
+        "sourceColumn": "remarks",
+        "value": "NM"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "MILE",
+        "sourceColumn": "remarks",
+        "value": "NM"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "ATFL",
+        "sourceColumn": "remarks",
+        "value": "AT FL"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "NMN",
+        "sourceColumn": "remarks",
+        "value": "NM N"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "NMS",
+        "sourceColumn": "remarks",
+        "value": "NM S"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "NMW",
+        "sourceColumn": "remarks",
+        "value": "NM W"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "NME",
+        "sourceColumn": "remarks",
+        "value": "NM E"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "2XX135423",
+        "sourceColumn": "remarks",
+        "value": "2500-3500"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "AT6XX140620",
+        "sourceColumn": "remarks",
+        "value": "6500-7000"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "AT6XX141622",
+        "sourceColumn": "remarks",
+        "value": "6500-7000"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "AT6XX141712",
+        "sourceColumn": "remarks",
+        "value": "6500-7000"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "1XX146489",
+        "sourceColumn": "remarks",
+        "value": "1200-1500"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "BETWEEN3XXXX157243",
+        "sourceColumn": "remarks",
+        "value": "BETWEEN 3500-5000"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "XX162671",
+        "sourceColumn": "remarks",
+        "value": "500-1000"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "FL1805",
+        "sourceColumn": "remarks",
+        "value": "FL180 5"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "FL1901",
+        "sourceColumn": "remarks",
+        "value": "FL190 1"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "FL1902",
+        "sourceColumn": "remarks",
+        "value": "FL190 2"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "FL1903",
+        "sourceColumn": "remarks",
+        "value": "FL190 3"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "FL1905",
+        "sourceColumn": "remarks",
+        "value": "FL190 5"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "FL2006",
+        "sourceColumn": "remarks",
+        "value": "FL200 6"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "FL2009",
+        "sourceColumn": "remarks",
+        "value": "FL200 9"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "FL21010E",
+        "sourceColumn": "remarks",
+        "value": "FL210 10 E"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "FL2108",
+        "sourceColumn": "remarks",
+        "value": "FL210 8"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "FL2207",
+        "sourceColumn": "remarks",
+        "value": "FL220 7"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "FL2305",
+        "sourceColumn": "remarks",
+        "value": "FL230 5"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "FL2504",
+        "sourceColumn": "remarks",
+        "value": "FL250 4"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "FL2505",
+        "sourceColumn": "remarks",
+        "value": "FL250 5"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "FL2506",
+        "sourceColumn": "remarks",
+        "value": "FL250 6"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "FL2507",
+        "sourceColumn": "remarks",
+        "value": "FL250 7"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "FL2605",
+        "sourceColumn": "remarks",
+        "value": "FL260 5"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "FL2607",
+        "sourceColumn": "remarks",
+        "value": "FL260 7"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "FL2707",
+        "sourceColumn": "remarks",
+        "value": "FL270 7"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "FL2805",
+        "sourceColumn": "remarks",
+        "value": "FL280 5"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "FL2905",
+        "sourceColumn": "remarks",
+        "value": "FL290 5"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "FL2907",
+        "sourceColumn": "remarks",
+        "value": "FL290 7"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "FL33020E",
+        "sourceColumn": "remarks",
+        "value": "FL330 20 E"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "AT6XX140674",
+        "sourceColumn": "remarks",
+        "value": "6500-7000"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "FL18026E",
+        "sourceColumn": "remarks",
+        "value": "FL180 26 E"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "FL3001",
+        "sourceColumn": "remarks",
+        "value": "FL300 1"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "FL3008",
+        "sourceColumn": "remarks",
+        "value": "FL300 8"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "FL3105",
+        "sourceColumn": "remarks",
+        "value": "FL310 5"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "FL3206",
+        "sourceColumn": "remarks",
+        "value": "FL320 6"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "FL3305",
+        "sourceColumn": "remarks",
+        "value": "FL330 5"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "FL3340",
+        "sourceColumn": "remarks",
+        "value": "FL334"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "FL3405",
+        "sourceColumn": "remarks",
+        "value": "FL340 5"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "FL3505",
+        "sourceColumn": "remarks",
+        "value": "FL350 5"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "FL3508",
+        "sourceColumn": "remarks",
+        "value": "FL350 8"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "FL3601",
+        "sourceColumn": "remarks",
+        "value": "FL360 1"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "FL3605",
+        "sourceColumn": "remarks",
+        "value": "FL360 5"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "FL3606",
+        "sourceColumn": "remarks",
+        "value": "FL360 6"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "FL3805",
+        "sourceColumn": "remarks",
+        "value": "FL380 5"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "FL3905",
+        "sourceColumn": "remarks",
+        "value": "FL390 5"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "FL3908",
+        "sourceColumn": "remarks",
+        "value": "FL390 8"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "7FL6",
+        "sourceColumn": "remarks",
+        "value": "7FLA6"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "AT1500 FEET266NM E OF PVDNO INJURIES REPORTEDMEDFL4",
+        "sourceColumn": "remarks",
+        "value": "AT1500 FEET 266 NM E OF PVD NO INJURIES REPORTED MEDFLT4"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "FL18011",
+        "sourceColumn": "remarks",
+        "value": "FL180 11"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "FL18020",
+        "sourceColumn": "remarks",
+        "value": "FL180 20"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "FL18027",
+        "sourceColumn": "remarks",
+        "value": "FL180 27"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "FL18030",
+        "sourceColumn": "remarks",
+        "value": "FL180 30"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "FL18032",
+        "sourceColumn": "remarks",
+        "value": "FL180 32"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "FL18035",
+        "sourceColumn": "remarks",
+        "value": "FL180 35"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "FL18040",
+        "sourceColumn": "remarks",
+        "value": "FL180 40"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "FL18045",
+        "sourceColumn": "remarks",
+        "value": "FL180 45"
+      }
+    }
+  }
+]
