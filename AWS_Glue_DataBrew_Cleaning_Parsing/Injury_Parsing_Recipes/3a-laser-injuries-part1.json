@@ -1,0 +1,870 @@
+[
+  {
+    "Action": {
+      "Operation": "UPPER_CASE",
+      "Parameters": {
+        "sourceColumn": "remarks"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "INJURY",
+        "sourceColumn": "remarks",
+        "value": "INJURIES"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "BLURRED VISION",
+        "sourceColumn": "remarks",
+        "value": "BLURRY VISION"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "FUZZY VISION",
+        "sourceColumn": "remarks",
+        "value": "BLURRY VISION"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "HAZINESS IN EYE",
+        "sourceColumn": "remarks",
+        "value": "BLURRY VISION"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "SEEING GREEN DOTS",
+        "sourceColumn": "remarks",
+        "value": "SEEING SPOTS"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "SEEING GREEN STARS",
+        "sourceColumn": "remarks",
+        "value": "SEEING SPOTS"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "SPOTS ON EYES",
+        "sourceColumn": "remarks",
+        "value": "SEEING SPOTS"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "SPOTS IN THEIR EYES",
+        "sourceColumn": "remarks",
+        "value": "SEEING SPOTS"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "MOMENTARY EYE BLINDNESS",
+        "sourceColumn": "remarks",
+        "value": "TEMPORARY BLINDNESS"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "TEMPORARY VISION LOSS",
+        "sourceColumn": "remarks",
+        "value": "TEMPORARY BLINDNESS"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "TEMPORARY FLASHBLINDNESS",
+        "sourceColumn": "remarks",
+        "value": "TEMPORARY BLINDNESS"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "MOMENTARILY BLINDED",
+        "sourceColumn": "remarks",
+        "value": "TEMPORARY BLINDNESS"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "UNKNOWN INJURIES",
+        "sourceColumn": "remarks",
+        "value": "INJURIES UNKNOWN"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "VISION ISSUES.",
+        "sourceColumn": "remarks",
+        "value": "VISION AFFECTED."
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "EYES HURT",
+        "sourceColumn": "remarks",
+        "value": "EYE PAIN"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "EYE INJURY",
+        "sourceColumn": "remarks",
+        "value": "EYE PAIN"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "MINOR INJURY",
+        "sourceColumn": "remarks",
+        "value": "EYE PAIN"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "SCRATCHY RIGHT EYE.",
+        "sourceColumn": "remarks",
+        "value": "SCRATCHY EYES (RIGHT)."
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "EYE ACHE",
+        "sourceColumn": "remarks",
+        "value": "EYE PAIN"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "SORE EYES",
+        "sourceColumn": "remarks",
+        "value": "EYE PAIN"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "EYE IRRITATED",
+        "sourceColumn": "remarks",
+        "value": "EYE IRRITATION"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "SEEING WHITE SPOTS",
+        "sourceColumn": "remarks",
+        "value": "SEEING SPOTS"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "THEWASHEADINGWEST.NOINJURIES",
+        "sourceColumn": "remarks",
+        "value": "THE WASH EADING WEST. NO INJURIES"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "4,500'.NOINJURIES",
+        "sourceColumn": "remarks",
+        "value": "4,500'. NO INJURIES"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "SEEING GREEN SPOTS.",
+        "sourceColumn": "remarks",
+        "value": "SEEING SPOTS."
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "POSSIBLE INJURIES TO HIS LEFT EYE.",
+        "sourceColumn": "remarks",
+        "value": "POSSIBLE EYE INJURIES TO HIS LEFT EYE."
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": " PRESSURE ON LEFT EYE",
+        "sourceColumn": "remarks",
+        "value": "EYE PRESSURE ON LEFT EYE"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": " STRUCK IN THE RIGHT EYE",
+        "sourceColumn": "remarks",
+        "value": " HIT IN THE EYE (RIGHT)"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": " VISION TEMPORARILY IMPAIRED.",
+        "sourceColumn": "remarks",
+        "value": "VISION AFFECTED"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "NOINJURIES",
+        "sourceColumn": "remarks",
+        "value": "NO INJURIES"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "4,500';PILOT REPORTEDBEING DISORIENTEDFOR5",
+        "sourceColumn": "remarks",
+        "value": "4,500'; PILOT REPORTED BEING DISORIENTED FOR 5"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "APPROXIMATELY5NM.NOINJURIES",
+        "sourceColumn": "remarks",
+        "value": "APPROXIMATELY 5NM. NO INJURIES"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "EYES WERE AFFECTED ",
+        "sourceColumn": "remarks",
+        "value": "VISION AFFECTED "
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "1REPORTED INJURIES (PILOT),MEDICAL",
+        "sourceColumn": "remarks",
+        "value": "1 REPORTED INJURIES (PILOT), MEDICAL"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "NO REPORTED INJURIES. ",
+        "sourceColumn": "remarks",
+        "value": "NO INJURIES REPORTED. "
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "NOREPORTEDINJURIES.PCT",
+        "sourceColumn": "remarks",
+        "value": "NO INJURIES REPORTED. PCT"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "TEMPORARY VISION PROBLEMS",
+        "sourceColumn": "remarks",
+        "value": "VISION AFFECTED"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "PUFFY RIGHT EYE.NJSTATEPDNOTIFIED. ",
+        "sourceColumn": "remarks",
+        "value": "PUFFY EYE (RIGHT). NJ STATE PD NOTIFIED. "
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "NOREPORTEDINJURIES.PICPROVIDEDTHEPHYSICAL",
+        "sourceColumn": "remarks",
+        "value": "NO INJURIES REPORTED. PICPROVIDEDTHEPHYSICAL"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "2,000'.NOINJURIESREPORTED. ",
+        "sourceColumn": "remarks",
+        "value": "2,000'. NO INJURIES REPORTED. "
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "RIGHT EYE SORENESS. ",
+        "sourceColumn": "remarks",
+        "value": "RIGHT EYE PAIN. "
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "VISUAL IMPAIRMENT",
+        "sourceColumn": "remarks",
+        "value": "VISION AFFECTED"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "HIT IN LEFT EYEAND",
+        "sourceColumn": "remarks",
+        "value": "HIT IN THE EYE (LEFT) AND"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "TEMPORARY IMPAIRMENT.",
+        "sourceColumn": "remarks",
+        "value": "VISION AFFECTED TEMPORARILY. "
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "(SPA300020).NEGATIVEINJURIES.SPARTANBURGSHERIFF",
+        "sourceColumn": "remarks",
+        "value": "(SPA300020). NO INJURIES. SPARTANBURGSHERIFF"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "INJURIES REPORTED.MD",
+        "sourceColumn": "remarks",
+        "value": "REPORTED INJURIES. MD"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "DECK.NOINJURIESREPORTED,",
+        "sourceColumn": "remarks",
+        "value": "DECK. NO INJURIES REPORTED,"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "DISCOMFORT IN ONE EYE.",
+        "sourceColumn": "remarks",
+        "value": "EYE DISCOMFORT."
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "INJURES",
+        "sourceColumn": "remarks",
+        "value": "INJURIES"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "STRUCK IN EYE ",
+        "sourceColumn": "remarks",
+        "value": "HIT IN THE EYE"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "SENSATION IN EYE;",
+        "sourceColumn": "remarks",
+        "value": "EYE DISCOMFORT;"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "TRANSPORTED FOR INJURIES.TEXASSTATEPOLICENOTIFIED XXXXXX142236.",
+        "sourceColumn": "remarks",
+        "value": "TRANSPORTED FOR REPORTED INJURIES. TEXAS STATE POLICE NOTIFIED XXXXXX142236."
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "INJUIRES",
+        "sourceColumn": "remarks",
+        "value": "INJURIES"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "SLIGHT PRESSURE IN RIGHT EYE.LEOS",
+        "sourceColumn": "remarks",
+        "value": "SLIGHT EYE PRESSURE (RIGHT)."
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "POSSIBLE INJURIES ",
+        "sourceColumn": "remarks",
+        "value": "REPORTED INJURIES "
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "(RBL126008).NEGATIVEINJURIES.TEHAMACOUNTYSHERIFF",
+        "sourceColumn": "remarks",
+        "value": "(RBL126008). NO INJURIES. TEHAMACOUNTYSHERIFF"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "EYES WERE STRAINED",
+        "sourceColumn": "remarks",
+        "value": "EYE STRAIN"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "AFTER IMAGES",
+        "sourceColumn": "remarks",
+        "value": "AFTERIMAGES"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "BEAM IN THERIGHT EYE",
+        "sourceColumn": "remarks",
+        "value": "HIT IN THE EYE (RIGHT)"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "PAIN AND VISUAL DIFFICULTY IN LEFT EYE;",
+        "sourceColumn": "remarks",
+        "value": "EYE PAIN AND VISION AFFECTED (LEFT)"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "REPORTEDINJURIES.LOUDOUNCOUNTY",
+        "sourceColumn": "remarks",
+        "value": "INJURIES REPORTED. LOUDOUNCOUNTY"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "TEMPORARY HAZING,NOFURTHER",
+        "sourceColumn": "remarks",
+        "value": "TEMPORARY BLURRY VISION, NO FURTHER"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "OFFICEREXPERIENCEDBLURREDVISION.JBU",
+        "sourceColumn": "remarks",
+        "value": "OFFICER EXPERIENCED BLURRY VISION. JBU"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "MOMENTARY LOSS OF NIGHT VISION;",
+        "sourceColumn": "remarks",
+        "value": "TEMPORARY NIGHT BLINDNESS;"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "INJUIES",
+        "sourceColumn": "remarks",
+        "value": "INJURIES"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "NOINJURIESREPORTED.MDSP",
+        "sourceColumn": "remarks",
+        "value": "NO INJURIES REPORTED. MDSP"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "LEFT EYE AFFECTED; ",
+        "sourceColumn": "remarks",
+        "value": "VISION AFFECTED (LEFT); "
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "THECOCKPITTWICE,NOREPORTEDINJURIES,ALBERMARLE",
+        "sourceColumn": "remarks",
+        "value": "THE COCKPIT TWICE, NO INJURIES REPORTED, ALBERMARLE"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "REPORTED DISCOMFORT.DAVIDSON",
+        "sourceColumn": "remarks",
+        "value": "REPORTED EYE DISCOMFORT. DAVIDSON"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "TEMPORARY MEDIUM PAIN IN EYES. ",
+        "sourceColumn": "remarks",
+        "value": "TEMPORARY EYE PAIN. "
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "EYES WERE EFFECTED",
+        "sourceColumn": "remarks",
+        "value": "VISION AFFECTED"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "NOREPORTEDINJURED.LOUDONCOUNTYSHERIFFNOTIFIEDXXXXXXXX139459. ",
+        "sourceColumn": "remarks",
+        "value": "NO INJURIES REPORTED. LOUDONCOUNTYSHERIFFNOTIFIEDXXXXXXXX139459. "
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "IRRITATION IN LEFT EYE AND LOST OF NIGHT VISION.KERNCOUNTYSHERIFFNOTIFIED AT XXXXXX142768.  ",
+        "sourceColumn": "remarks",
+        "value": "EYE IRRITATION (LEFT) AND NIGHT BLINDNESS. KERNCOUNTYSHERIFFNOTIFIED AT XXXXXX142768.  "
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "TEMPORARY DISCOMFORT",
+        "sourceColumn": "remarks",
+        "value": "TEMPORARY EYE DISCOMFORT"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "DECK.NOINJURIESREPORTED,SANANTONIO,TXPOLICEDEPARTMENTNOTIFIED",
+        "sourceColumn": "remarks",
+        "value": "DECK. NO INJURIES REPORTED, SAN ANTONIO, TX POLICE DEPARTMENT NOTIFIED"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "VISION A LITTLE BLURRY.",
+        "sourceColumn": "remarks",
+        "value": "BLURRY VISION."
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "AFFECTING VISION.",
+        "sourceColumn": "remarks",
+        "value": "VISION AFFECTED."
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "THEFLIGHTDECK.NOINJURIES",
+        "sourceColumn": "remarks",
+        "value": "THE FLIGHT DECK. NO INJURIES"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "EYES A LITTLE FUZZY;",
+        "sourceColumn": "remarks",
+        "value": "BLURRY VISION;"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "STRUCK IN THE EYE",
+        "sourceColumn": "remarks",
+        "value": "HIT IN THE EYE"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "RIGHT.NOINJURIES",
+        "sourceColumn": "remarks",
+        "value": "RIGHT. NO INJURIES"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "AT2,000',10SPHILADELPHIA(PHL);NOINJURIESREPORTED;NEWJERSEYSTATEPOLICENOTIFIED",
+        "sourceColumn": "remarks",
+        "value": "AT2,000',10 S PHILADELPHIA(PHL); NO INJURIES REPORTED; NEW JERSEY STATE POLICE NOTIFIED"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "PARTIAL LOSS OF NIGHT VISION. ",
+        "sourceColumn": "remarks",
+        "value": "PARTIAL NIGHT BLINDNESS. "
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "I495.NOINJURIES",
+        "sourceColumn": "remarks",
+        "value": "I495. NO INJURIES"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "DECK.NOINJURIES",
+        "sourceColumn": "remarks",
+        "value": "DECK. NO INJURIES"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "1,500'.NOINJURIES ",
+        "sourceColumn": "remarks",
+        "value": "1,500'. NO INJURIES "
+      }
+    }
+  }
+]
