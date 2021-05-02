@@ -1,0 +1,4 @@
+This script identifies holidays.  In addition, it will identify those days that turn a holiday into a 4-day weekend.  For instance, Friday and Tuesday will turn a Monday holiday into a 4-day weekend.
+
+
+POC:"Kreke, Joseph G." <jkreke@gmu.edu>

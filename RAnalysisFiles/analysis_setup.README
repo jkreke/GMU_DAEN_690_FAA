@@ -1,0 +1,7 @@
+This file should be run before any R work is done in order to 
+  1) establish directories where files will be kept
+  2) load into memory basic search functions
+  3) bring in the most recent data.
+
+
+POC:"Kreke, Joseph G." <jkreke@gmu.edu>

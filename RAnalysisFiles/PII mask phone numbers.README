@@ -1,0 +1,4 @@
+This file contains the regex patterns to identify phone numbers.  It will mask a phone number with a string of Xs plus an unique number.
+
+
+POC:"Kreke, Joseph G." <jkreke@gmu.edu>

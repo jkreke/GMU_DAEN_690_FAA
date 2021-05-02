@@ -1,0 +1,5 @@
+This file finds vectors in the remarks using regex patterns.   Several patterns are used and up to 4 vectors were found and they were identified as
+vectA, vectB, vectC, vectD.   In the cleanup of the vectors, duplicates were identified and removed, leaving no more than a total of three possible vecctors in one comment.
+
+
+POC:"Kreke, Joseph G." <jkreke@gmu.edu>

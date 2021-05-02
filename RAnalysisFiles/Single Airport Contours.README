@@ -1,0 +1,4 @@
+This file takes a city name and a state name, finds the rows of data with those criteria, then provides several plots, such as the simple plot of the stikes in longitude and latitude, or the more advanced plot showing the density measurement with contours.   The number of contours can be varied and the location of the peak (center of the max strikes within the center contour) can be determined.
+
+ 
+POC:"Kreke, Joseph G." <jkreke@gmu.edu>

@@ -1,0 +1,4 @@
+This file changes the original date field (date & time) to local date and time in two formats, both as character fields.  In addition, various sub-time measures are pulled out such as year, month, day, weekday, hour and minute and these are in numeric format.
+
+
+POC:"Kreke, Joseph G." <jkreke@gmu.edu>

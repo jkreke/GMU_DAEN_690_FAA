@@ -1,0 +1,4 @@
+This file takes all remarks, combines them, separates all words by spaces and returns a unique sorted list (~91K).  The team looked through the list manually and excluded "words" that were obviously not PII, down to about 7-8K words.  The remarks were then searched for each word.  Some words were found in many rows (thousands) and were searched using exclusion criteria, such as for the word "miles" which was excluded if it had the word "from" or a direction word (...miles north...).  
+
+
+POC:"Kreke, Joseph G." <jkreke@gmu.edu>
