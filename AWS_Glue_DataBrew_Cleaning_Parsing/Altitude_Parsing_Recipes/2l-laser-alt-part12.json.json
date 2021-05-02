@@ -1,0 +1,1202 @@
+[
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "AT1900FT",
+        "sourceColumn": "remarks",
+        "value": "AT 1900 FEET"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "AT23000FT33",
+        "sourceColumn": "remarks",
+        "value": "AT 23000 FEET 33"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "AT26000FT50",
+        "sourceColumn": "remarks",
+        "value": "AT 26000 FEET 50"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "AT2700FT72",
+        "sourceColumn": "remarks",
+        "value": "AT 2700 FEET 72 NM"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "AT3000",
+        "sourceColumn": "remarks",
+        "value": "AT 3000 FEET"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "AT3000FT",
+        "sourceColumn": "remarks",
+        "value": "AT 3000 FEET"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "AT3000FT10",
+        "sourceColumn": "remarks",
+        "value": "AT 3000 FEET 10"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "AT38000FT",
+        "sourceColumn": "remarks",
+        "value": "AT 38000 FEET"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "AT8000FT",
+        "sourceColumn": "remarks",
+        "value": "AT 8000 FEET"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "AT8000FT10",
+        "sourceColumn": "remarks",
+        "value": "AT 8000 FEET 10"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "AT8000FT20",
+        "sourceColumn": "remarks",
+        "value": "AT 8000 FEET 20"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "AT900FT25",
+        "sourceColumn": "remarks",
+        "value": "AT 900 FEET 25"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "ATAPPROXIMATELY200-300FEET25",
+        "sourceColumn": "remarks",
+        "value": "AT APPROXIMATELY 250 FEET 25"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "BETWEEN 3000-4000 6 SE",
+        "sourceColumn": "remarks",
+        "value": "AROUND 3500 FEET 6 NM SE"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "BETWEEN 8500 AND 9000",
+        "sourceColumn": "remarks",
+        "value": "AROUND 8750 FEET"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "FETT",
+        "sourceColumn": "remarks",
+        "value": "FEET"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "LASER10000MSLNORTHEAST",
+        "sourceColumn": "remarks",
+        "value": "LASER 10000 FEET MSL NORTHEAST"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "WESTBOUND(ALTITUDEUNKNOWN)22E",
+        "sourceColumn": "remarks",
+        "value": "WESTBOUND ALTITUDE UNKNOWN 22 NM E"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "WHILECLIMBING",
+        "sourceColumn": "remarks",
+        "value": "WHILE CLIMBING"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "WHILEDEPARTING",
+        "sourceColumn": "remarks",
+        "value": "WHILE DEPARTING"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "XXXX FEET XX  NM",
+        "sourceColumn": "remarks",
+        "value": "UNKNOWN ALTITUDE AND DISTANCE"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "3400 9 E",
+        "sourceColumn": "remarks",
+        "value": "3400 FEET 9 NM E"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "(ALTITUDE AND DIRECTION OF ACFT NOT REPORTED)",
+        "sourceColumn": "remarks",
+        "value": " ALTITUDE AND DIRECTION UNKNOWN "
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "1000 3 E",
+        "sourceColumn": "remarks",
+        "value": "1000 FEET 3 NM E"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "1000 FT",
+        "sourceColumn": "remarks",
+        "value": "1000 FEET"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "10000 15SSE",
+        "sourceColumn": "remarks",
+        "value": "10000 FEET 15 NM SSE"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "10000 24 ENE",
+        "sourceColumn": "remarks",
+        "value": "10000 FEET 24 NM ENE"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "10000 8NE",
+        "sourceColumn": "remarks",
+        "value": "10000 FEET 8 NM NE"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "10000 FT",
+        "sourceColumn": "remarks",
+        "value": "10000 FEET"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "1000AGLDOWN",
+        "sourceColumn": "remarks",
+        "value": "1000 FEET AGL DOWN"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "10700 6 NM",
+        "sourceColumn": "remarks",
+        "value": "10700 FEET 6 NM"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "1100 2 NE",
+        "sourceColumn": "remarks",
+        "value": "1100 FEET 2 NM NE"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "11000 9 S",
+        "sourceColumn": "remarks",
+        "value": "11000 FEET 9 NM S"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "11500 HEADING",
+        "sourceColumn": "remarks",
+        "value": "11500 FEET HEADING"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "1200 25NORTHEAST",
+        "sourceColumn": "remarks",
+        "value": "1200 FEET 25 NM NORTHEAST"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "1200 N BOUND 3S",
+        "sourceColumn": "remarks",
+        "value": "1200 FEET N BOUND 3 NM S"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "12000 AT",
+        "sourceColumn": "remarks",
+        "value": "12000 FEET AT"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "12000 FET 5  NM",
+        "sourceColumn": "remarks",
+        "value": "12000 FEET 5 NM"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "1250016 SWWENATCHEEWAAIRPORT",
+        "sourceColumn": "remarks",
+        "value": "12500 FEET 16 SW WENATCHEE WA AIRPORT"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "1400 POLICE",
+        "sourceColumn": "remarks",
+        "value": "1400 FEET POLICE"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "14000 52  NM",
+        "sourceColumn": "remarks",
+        "value": "14000 FEET 52  NM"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "1500 ORBITING",
+        "sourceColumn": "remarks",
+        "value": "1500  FEET ORBITING"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "15000 3 N",
+        "sourceColumn": "remarks",
+        "value": "15000 FEET 3 NM N"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "15000 30S",
+        "sourceColumn": "remarks",
+        "value": "15000 FEET 30 NM S"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "15AT2500NO",
+        "sourceColumn": "remarks",
+        "value": "15 AT 2500 FEET NO"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "1600FT",
+        "sourceColumn": "remarks",
+        "value": "1600 FEET"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "1700 7 W",
+        "sourceColumn": "remarks",
+        "value": "1700 FEET 7 NM W"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "18000 6  NM",
+        "sourceColumn": "remarks",
+        "value": "18000 FEET 6  NM"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "18003 NM",
+        "sourceColumn": "remarks",
+        "value": "1800 FEET 3 NM"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "19000 IN",
+        "sourceColumn": "remarks",
+        "value": "19000 FEET IN"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "2000 12 SE",
+        "sourceColumn": "remarks",
+        "value": "2000 FEET 12 NM SE"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "2000 2 NE",
+        "sourceColumn": "remarks",
+        "value": "2000 FEET 2 NM NE"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "2000 5E",
+        "sourceColumn": "remarks",
+        "value": "2000 FEET 5 NM E"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "2000 7 SE",
+        "sourceColumn": "remarks",
+        "value": "2000  FEET 7 NM SE"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "2000 WHILE",
+        "sourceColumn": "remarks",
+        "value": "2000 FEET WHILE"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "20000FEET",
+        "sourceColumn": "remarks",
+        "value": "20000 FEET"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "2100 7 NM",
+        "sourceColumn": "remarks",
+        "value": "2100 FEET 7 NM"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "2500 10 NM",
+        "sourceColumn": "remarks",
+        "value": "2500 FEET 10 NM"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "2500 8W",
+        "sourceColumn": "remarks",
+        "value": "2500 FEET 8 NM W"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "2500 PILOT",
+        "sourceColumn": "remarks",
+        "value": "2500 FEET PILOT"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "3000 2 NW",
+        "sourceColumn": "remarks",
+        "value": "3000 FEET 2 NM NW"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "3000 OVERHEAD",
+        "sourceColumn": "remarks",
+        "value": "3000 FEET OVERHEAD"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "3200 NO",
+        "sourceColumn": "remarks",
+        "value": "3200 FEET NO"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "3200AGL",
+        "sourceColumn": "remarks",
+        "value": "3200 FEET AGL"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "3500 10 ENE",
+        "sourceColumn": "remarks",
+        "value": "3500 FEET 10 NM ENE"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "3500 24  NM",
+        "sourceColumn": "remarks",
+        "value": "3500 FEET 24 NM"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "3500 8 SW",
+        "sourceColumn": "remarks",
+        "value": "3500 FEET 8 NM SW"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "35002 NM",
+        "sourceColumn": "remarks",
+        "value": "3500 FEET 2 NM"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "4400 7 N",
+        "sourceColumn": "remarks",
+        "value": "4400 FEET 7 NM N"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "4500 10  NM",
+        "sourceColumn": "remarks",
+        "value": "4500 FEET 10  NM"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "4500 35 N",
+        "sourceColumn": "remarks",
+        "value": "4500 FEET 35 NM N"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "5000 5NW",
+        "sourceColumn": "remarks",
+        "value": "5000 FEET 5 NM NW"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "5000 8 NW",
+        "sourceColumn": "remarks",
+        "value": "5000 FEET 8 NM NW"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "5000 IN",
+        "sourceColumn": "remarks",
+        "value": "5000 FEET IN"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "5700 FT",
+        "sourceColumn": "remarks",
+        "value": "5700 FEET"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "6000 25 NM",
+        "sourceColumn": "remarks",
+        "value": "6000 FEET 25 NM"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "6000 9 SE",
+        "sourceColumn": "remarks",
+        "value": "6000 FEET 9 NM SE"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "6800 ON",
+        "sourceColumn": "remarks",
+        "value": "6800  FEET ON"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "7000 12",
+        "sourceColumn": "remarks",
+        "value": "7000 FEET 12 NM"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "7000 7 E",
+        "sourceColumn": "remarks",
+        "value": "7000 FEET 7 NM E"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "7000 FT",
+        "sourceColumn": "remarks",
+        "value": "7000 FEET"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "8000 14  NM",
+        "sourceColumn": "remarks",
+        "value": "8000 FEET 14  NM"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "8000 FT",
+        "sourceColumn": "remarks",
+        "value": "8000 FEET"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "8002E",
+        "sourceColumn": "remarks",
+        "value": "800 FEET 2 NM E"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "8100 FEE",
+        "sourceColumn": "remarks",
+        "value": "8100 FEET"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "900 FT",
+        "sourceColumn": "remarks",
+        "value": "900 FEET"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "9000MSL13",
+        "sourceColumn": "remarks",
+        "value": "9000 FEET MSL 13 NM"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "NM NM",
+        "sourceColumn": "remarks",
+        "value": "NM"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "9600 NO",
+        "sourceColumn": "remarks",
+        "value": "9600 FEET NO"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "AIRCRAFTE BOUND AT 10000",
+        "sourceColumn": "remarks",
+        "value": "AIRCRAFT BOUND AT 10000 FEET"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "ALTITUDE NOT REPORTED",
+        "sourceColumn": "remarks",
+        "value": "NO ALTITUDE REPORTED"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "AT 700 NO",
+        "sourceColumn": "remarks",
+        "value": "AT 700 FEET NO"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "AT3100FEET",
+        "sourceColumn": "remarks",
+        "value": "AT 3100 FEET"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "SID090FEETATSAN114014NO",
+        "sourceColumn": "remarks",
+        "value": "SID 090 FEET AT SAN114014 NO"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "SIDESOUTHBOUND5500MSL7",
+        "sourceColumn": "remarks",
+        "value": "SIDE SOUTH BOUND 5500 FEET MSL 7 NM"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "WHILESOUTHEASTBOUNDAT11000",
+        "sourceColumn": "remarks",
+        "value": "WHILE SOUTHEAST BOUND AT 11000 FEET"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "(ALTITUDEAND DIRECTION NOT REPORTED)NO",
+        "sourceColumn": "remarks",
+        "value": "ALTITUDE AND DIRECTION UNKNOWN"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "050FEET",
+        "sourceColumn": "remarks",
+        "value": "050 FEET"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "1000 4 NW",
+        "sourceColumn": "remarks",
+        "value": "1000 FEET 4 NM NW"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "11000 8E",
+        "sourceColumn": "remarks",
+        "value": "11000 FEET 8 NM E"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "11500 VCNTY",
+        "sourceColumn": "remarks",
+        "value": "11500 FEET VCNTY"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "2000 NO",
+        "sourceColumn": "remarks",
+        "value": "2000 FEET NO"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "2200AGLLASER",
+        "sourceColumn": "remarks",
+        "value": "2200 FEET AGL LASER"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "24000IN",
+        "sourceColumn": "remarks",
+        "value": "24000 FEET IN"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "2500 ON A 7 NM",
+        "sourceColumn": "remarks",
+        "value": "2500 FEET ON A 7 NM"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "2XXX167567FEET ",
+        "sourceColumn": "remarks",
+        "value": "AROUND 2900 FEET "
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "4200 NO",
+        "sourceColumn": "remarks",
+        "value": "4200 FEET NO"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "6000 FT",
+        "sourceColumn": "remarks",
+        "value": "6000 FEET"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "6000AML260012VICINITY",
+        "sourceColumn": "remarks",
+        "value": "6000 FEET AML260012 VICINITY"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "6100FEET",
+        "sourceColumn": "remarks",
+        "value": "6100 FEET"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "9400MSL13 NM",
+        "sourceColumn": "remarks",
+        "value": "9400 FEET MSL13 NM"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "UNKN",
+        "sourceColumn": "remarks",
+        "value": "UNKNOWN"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "AT 600 ON",
+        "sourceColumn": "remarks",
+        "value": "AT 600 FEET ON"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "AT1200FT05 NM",
+        "sourceColumn": "remarks",
+        "value": "AT 1200 FEET 05 NM"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "BOUNDANUNKNOWNALTITUDE",
+        "sourceColumn": "remarks",
+        "value": "BOUND AN UNKNOWN ALTITUDE"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "140COCKPIT",
+        "sourceColumn": "remarks",
+        "value": "140 FEET COCKPIT"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "FLXX1596866",
+        "sourceColumn": "remarks",
+        "value": "FL250 16"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "FLXX1643896",
+        "sourceColumn": "remarks",
+        "value": " FL250"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "(ORD)ALTITUDENOT REPORTED",
+        "sourceColumn": "remarks",
+        "value": "(ORD) ALTITUDE UNKNOWN"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "UNKOWN ALTITUDE5",
+        "sourceColumn": "remarks",
+        "value": "UNKNOWN ALTITUDE 5 NM"
+      }
+    }
+  }
+]

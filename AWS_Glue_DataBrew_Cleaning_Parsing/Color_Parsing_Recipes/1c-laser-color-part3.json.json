@@ -1,0 +1,591 @@
+[
+  {
+    "Action": {
+      "Operation": "EXTRACT_PATTERN",
+      "Parameters": {
+        "pattern": "GREEN LASER",
+        "sourceColumn": "remarks",
+        "targetColumn": "laser_color1"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "EXTRACT_PATTERN",
+      "Parameters": {
+        "pattern": "BLUE LASER",
+        "sourceColumn": "remarks",
+        "targetColumn": "laser_color2"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "EXTRACT_PATTERN",
+      "Parameters": {
+        "pattern": "RED LASER",
+        "sourceColumn": "remarks",
+        "targetColumn": "laser_color3"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "EXTRACT_PATTERN",
+      "Parameters": {
+        "pattern": "PURPLE LASER",
+        "sourceColumn": "remarks",
+        "targetColumn": "laser_color4"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "EXTRACT_PATTERN",
+      "Parameters": {
+        "pattern": "ORANGE LASER",
+        "sourceColumn": "remarks",
+        "targetColumn": "laser_color5"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "EXTRACT_PATTERN",
+      "Parameters": {
+        "pattern": "WHITE LASER",
+        "sourceColumn": "remarks",
+        "targetColumn": "laser_color6"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "EXTRACT_PATTERN",
+      "Parameters": {
+        "pattern": "GREEN, RED LASER",
+        "sourceColumn": "remarks",
+        "targetColumn": "laser_color7"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "EXTRACT_PATTERN",
+      "Parameters": {
+        "pattern": "GREEN, BLUE LASER",
+        "sourceColumn": "remarks",
+        "targetColumn": "laser_color8"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "EXTRACT_PATTERN",
+      "Parameters": {
+        "pattern": "GREEN, WHITE LASER",
+        "sourceColumn": "remarks",
+        "targetColumn": "laser_color9"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "EXTRACT_PATTERN",
+      "Parameters": {
+        "pattern": "YELLOW, ORANGE LASER",
+        "sourceColumn": "remarks",
+        "targetColumn": "laser_color10"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "EXTRACT_PATTERN",
+      "Parameters": {
+        "pattern": "GREEN, YELLOW LASER",
+        "sourceColumn": "remarks",
+        "targetColumn": "laser_color11"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "EXTRACT_PATTERN",
+      "Parameters": {
+        "pattern": "MULTI-COLOR",
+        "sourceColumn": "remarks",
+        "targetColumn": "laser_color12"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "EXTRACT_PATTERN",
+      "Parameters": {
+        "pattern": "GREEN, ORANGE LASER",
+        "sourceColumn": "remarks",
+        "targetColumn": "laser_color13"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "EXTRACT_PATTERN",
+      "Parameters": {
+        "pattern": "YELLOW LASER",
+        "sourceColumn": "remarks",
+        "targetColumn": "laser_color14"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "EXTRACT_PATTERN",
+      "Parameters": {
+        "pattern": "GREEN, WHITE, BLUE LASER",
+        "sourceColumn": "remarks",
+        "targetColumn": "laser_color15"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "EXTRACT_PATTERN",
+      "Parameters": {
+        "pattern": "GREEN, RED, BLUE LASER",
+        "sourceColumn": "remarks",
+        "targetColumn": "laser_color16"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "EXTRACT_PATTERN",
+      "Parameters": {
+        "pattern": "GRAY LASER",
+        "sourceColumn": "remarks",
+        "targetColumn": "laser_color17"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "EXTRACT_PATTERN",
+      "Parameters": {
+        "pattern": "GREEN, PURPLE LASER",
+        "sourceColumn": "remarks",
+        "targetColumn": "laser_color18"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "EXTRACT_PATTERN",
+      "Parameters": {
+        "pattern": "GREEN, RED, PURPLE LASER",
+        "sourceColumn": "remarks",
+        "targetColumn": "laser_color19"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "EXTRACT_PATTERN",
+      "Parameters": {
+        "pattern": "BLUE, WHITE LASER",
+        "sourceColumn": "remarks",
+        "targetColumn": "laser_color20"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "MERGE",
+      "Parameters": {
+        "sourceColumns": "[\"laser_color19\",\"laser_color18\",\"laser_color17\",\"laser_color16\",\"laser_color15\",\"laser_color14\",\"laser_color13\",\"laser_color12\",\"laser_color11\",\"laser_color10\",\"laser_color9\",\"laser_color8\",\"laser_color7\",\"laser_color6\",\"laser_color5\",\"laser_color4\",\"laser_color3\",\"laser_color2\",\"laser_color1\",\"laser_color20\"]",
+        "targetColumn": "laser_color_merged"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "FILL_WITH_CUSTOM",
+      "Parameters": {
+        "columnDataType": "string",
+        "sourceColumn": "laser_color_merged",
+        "value": "UNKNOWN"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": " LASER",
+        "sourceColumn": "laser_color_merged",
+        "value": ", "
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "GREEN, GREEN",
+        "sourceColumn": "laser_color_merged",
+        "value": "GREEN"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "BLUE, BLUE",
+        "sourceColumn": "laser_color_merged",
+        "value": "BLUE"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "RED, RED",
+        "sourceColumn": "laser_color_merged",
+        "value": "RED"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "YELLOW, YELLOW",
+        "sourceColumn": "laser_color_merged",
+        "value": "OTHER"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "PURPLE, PURPLE",
+        "sourceColumn": "laser_color_merged",
+        "value": "OTHER"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "ORANGE, ORANGE",
+        "sourceColumn": "laser_color_merged",
+        "value": "OTHER"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "WHITE, WHITE",
+        "sourceColumn": "laser_color_merged",
+        "value": "WHITE"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REMOVE_COMBINED",
+      "Parameters": {
+        "collapseConsecutiveWhitespace": "false",
+        "removeAllPunctuation": "true",
+        "removeAllQuotes": "false",
+        "removeAllWhitespace": "false",
+        "removeCustomCharacters": "false",
+        "removeCustomValue": "false",
+        "removeLeadingAndTrailingPunctuation": "false",
+        "removeLeadingAndTrailingQuotes": "false",
+        "removeLeadingAndTrailingWhitespace": "false",
+        "removeLetters": "false",
+        "removeNumbers": "false",
+        "removeSpecialCharacters": "false",
+        "sourceColumn": "laser_color_merged"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "GRAY",
+        "sourceColumn": "laser_color_merged",
+        "value": "OTHER"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "YELLOW ORANGE",
+        "sourceColumn": "laser_color_merged",
+        "value": "OTHER"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "YELLOW GREEN",
+        "sourceColumn": "laser_color_merged",
+        "value": "OTHER"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "YELLOW GREEN YELLOW",
+        "sourceColumn": "laser_color_merged",
+        "value": "OTHER"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "YELLOW",
+        "sourceColumn": "laser_color_merged",
+        "value": "OTHER"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "PURPLE",
+        "sourceColumn": "laser_color_merged",
+        "value": "OTHER"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "ORANGE",
+        "sourceColumn": "laser_color_merged",
+        "value": "OTHER"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "WHITE BLUE WHITE",
+        "sourceColumn": "laser_color_merged",
+        "value": "MULTI-COLOR"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "MULTI-COLORRED",
+        "sourceColumn": "laser_color_merged",
+        "value": "MULTI-COLOR"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "GREEN BLUE",
+        "sourceColumn": "laser_color_merged",
+        "value": "MULTI-COLOR"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "GREEN ORANGE",
+        "sourceColumn": "laser_color_merged",
+        "value": "MULTI-COLOR"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "GREEN PURPLE",
+        "sourceColumn": "laser_color_merged",
+        "value": "MULTI-COLOR"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "GREEN RED",
+        "sourceColumn": "laser_color_merged",
+        "value": "MULTI-COLOR"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "GREEN RED BLUE",
+        "sourceColumn": "laser_color_merged",
+        "value": "MULTI-COLOR"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "GREEN RED PURPLE",
+        "sourceColumn": "laser_color_merged",
+        "value": "MULTI-COLOR"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "GREEN WHITE",
+        "sourceColumn": "laser_color_merged",
+        "value": "MULTI-COLOR"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "GREEN WHITE GREEN",
+        "sourceColumn": "laser_color_merged",
+        "value": "MULTI-COLOR"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "RED GREEN",
+        "sourceColumn": "laser_color_merged",
+        "value": "MULTI-COLOR"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "WHITE BLUE WHITE",
+        "sourceColumn": "laser_color_merged",
+        "value": "MULTI-COLOR"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "WHITE GREEN",
+        "sourceColumn": "laser_color_merged",
+        "value": "MULTI-COLOR"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "GREEN OTHER",
+        "sourceColumn": "laser_color_merged",
+        "value": "MULTI-COLOR"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "MULTI-COLOR BLUE",
+        "sourceColumn": "laser_color_merged",
+        "value": "MULTI-COLOR"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "MULTI-COLOR GREEN",
+        "sourceColumn": "laser_color_merged",
+        "value": "MULTI-COLOR"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "MULTI-COLOR OTHER",
+        "sourceColumn": "laser_color_merged",
+        "value": "MULTI-COLOR"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "OTHER OTHER",
+        "sourceColumn": "laser_color_merged",
+        "value": "OTHER"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "MULTI-COLOR ",
+        "sourceColumn": "laser_color_merged",
+        "value": "MULTI-COLOR"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "BLUE GREEN",
+        "sourceColumn": "laser_color_merged",
+        "value": "OTHER"
+      }
+    }
+  }
+]

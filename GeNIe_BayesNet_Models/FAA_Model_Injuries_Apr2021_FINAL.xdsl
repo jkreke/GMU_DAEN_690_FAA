@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<smile version="1.0" id="Network1" numsamples="10000" discsamples="10000">
+	<nodes>
+		<cpt id="Copy_3_of_Node2">
+			<state id="Quad1" />
+			<state id="Quad2" />
+			<state id="Quad3" />
+			<state id="Quad4" />
+			<state id="Unk" />
+			<probabilities>0.166825548 0.366539561 0.338735303 0.01080394 0.117095647</probabilities>
+		</cpt>
+		<cpt id="Copy_4_of_Node12">
+			<state id="Under_2K" />
+			<state id="Btwn_2K_to_10K" />
+			<state id="Over_10K" />
+			<state id="Unknown" />
+			<probabilities>0.127740705 0.6364791869999999 0.22847156 0.007308548</probabilities>
+		</cpt>
+		<cpt id="Copy_2_of_Node2">
+			<state id="Green" />
+			<state id="Blue" />
+			<state id="Red" />
+			<state id="White" />
+			<state id="Other" />
+			<state id="MultiColor" />
+			<state id="Unknown" />
+			<probabilities>0.86518306 0.09361091000000001 0.009332379999999999 0.00875808 0.008614500000000001 0.00674803 0.00775305</probabilities>
+		</cpt>
+		<cpt id="Copy_2_of_Node12">
+			<state id="Under_2K" />
+			<state id="Btwn_2K_to_10K" />
+			<state id="Over_10K" />
+			<state id="Unknown" />
+			<probabilities>0.127740705 0.6364791869999999 0.22847156 0.007308548</probabilities>
+		</cpt>
+		<cpt id="Copy_2_of_Node11">
+			<state id="Unknown_0" />
+			<state id="None_1" />
+			<state id="Other_2" />
+			<state id="VisDisturb_3" />
+			<state id="Pain_4" />
+			<state id="Blindness_5" />
+			<parents>Copy_2_of_Node2 Copy_3_of_Node2 Copy_2_of_Node12</parents>
+			<probabilities>0 0.963636364 0.018181818 0 0.018181818 0 0 0.996551724 0 0.001724138 0.001724138 0 0 0 0 0 1 0 0 1 0 0 0 0 0.003984064 0.988047809 0 0.003984064 0 0.003984064 0 0.996047431 0.000790514 0.001581028 0.001581028 0 0 0.998019802 0 0 0.001980198 0 0 1 0 0 0 0 0 0.995780591 0 0 0 0.004219409 0 0.991980754 0.003207698 0.001603849 0.002405774 0.000801925 0 0.997275204 0 0 0.002724796 0 0 1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0.991452991 0.002849003 0 0.005698006 0 0 1 0 0 0 0 0.090909091 0.909090909 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0.992063492 0.007936508 0 0 0 0 0.9866666670000001 0.013333333 0 0 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0.983471074 0 0 0.008264463 0.008264463 0 0.963636364 0.018181818 0.018181818 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 0 0.916666667 0.083333333 0 0 0 0 0.9782608699999999 0 0 0 0.02173913 0 1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 1 0 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 0.5 0.5 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 1 0 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 1 0 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 0 1 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 1 0 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0.125 0.875 0 0 0 0 0 1 0 0 0 0 1 0 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 0 1 0 0 0 0 1 0 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 1 0 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 0 0 0.666666667 0.333333333 0 0 1 0 0 0 0 0 1 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 1 0 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 0 1 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0</probabilities>
+		</cpt>
+		<cpt id="Node2">
+			<state id="Green" />
+			<state id="Blue" />
+			<state id="Red" />
+			<state id="White" />
+			<state id="Other" />
+			<state id="MultiColor" />
+			<state id="Unknown" />
+			<probabilities>0.9110440862531581 0.0450067568890891 0.01284788186215946 0.01096770402867271 0.0061693335161284 0.006130163144597426 0.007834074306194795</probabilities>
+		</cpt>
+		<cpt id="Copy_of_Node2">
+			<state id="Quad1" />
+			<state id="Quad2" />
+			<state id="Quad3" />
+			<state id="Quad4" />
+			<state id="Unk" />
+			<probabilities>0.124125771 0.339308453 0.328533647 0.010089137 0.197942991</probabilities>
+		</cpt>
+		<cpt id="Copy_6_of_Node2">
+			<state id="Green" />
+			<state id="Blue" />
+			<state id="Red" />
+			<state id="White" />
+			<state id="Other" />
+			<state id="MultiColor" />
+			<state id="Unknown" />
+			<probabilities>0.86518306 0.09361091000000001 0.009332379999999999 0.00875808 0.008614500000000001 0.00674803 0.00775305</probabilities>
+		</cpt>
+		<cpt id="Copy_7_of_Node2">
+			<state id="Quad1" />
+			<state id="Quad2" />
+			<state id="Quad3" />
+			<state id="Quad4" />
+			<state id="Unk" />
+			<probabilities>0.166825548 0.366539561 0.338735303 0.01080394 0.117095647</probabilities>
+		</cpt>
+		<cpt id="Copy_4_of_Node11">
+			<state id="Unknown_0" />
+			<state id="Other_2" />
+			<state id="VisDisturb_3" />
+			<state id="Pain_4" />
+			<state id="Blindness_5" />
+			<parents>Copy_6_of_Node2 Copy_7_of_Node2 Copy_4_of_Node12</parents>
+			<probabilities>0 0.5 0 0.5 0 0 0 0.5 0.5 0 0 0 0 1 0 1 0 0 0 0 0.333333333 0 0.333333333 0 0.333333333 0 0.2 0.4 0.4 0 0 0 0 1 0 1 0 0 0 0 0 0 0 0 1 0 0.4 0.2 0.3 0.1 0 0 0 1 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 0 0.333333333 0 0.666666667 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 1 0 0 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0.5 0.5 0 0.5 0.5 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 0 0 1 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 0 0 0.666666667 0.333333333 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0</probabilities>
+		</cpt>
+		<cpt id="Copy_of_Node12">
+			<state id="Under_2K" />
+			<state id="Btwn_2K_to_10K" />
+			<state id="Over_10K" />
+			<state id="Unknown" />
+			<probabilities>0.129238907 0.639964737 0.210676854 0.020119502</probabilities>
+		</cpt>
+		<cpt id="Copy_of_Node11">
+			<state id="Unknown_0" />
+			<state id="None_1" />
+			<state id="Other_2" />
+			<state id="VisDisturb_3" />
+			<state id="Pain_4" />
+			<state id="Blindness_5" />
+			<parents>Node2 Copy_of_Node2 Copy_of_Node12</parents>
+			<probabilities>0.036163522 0.946540881 0.006289308 0.006289308 0.003144654 0.001572327 0.022135417 0.971354167 0.002083333 0.0015625 0.001822917 0.001041667 0.014418999 0.980491942 0 0.001696353 0.002544529 0.000848176 0.01369863 0.97260274 0 0 0 0.01369863 0.033411765 0.958117647 0.003294118 0.001411765 0.001411765 0.002352941 0.03368708 0.9561873239999999 0.003797099 0.002531399 0.002044592 0.001752507 0.024412027 0.971420065 0.000893123 0.000297708 0.001488538 0.001488538 0.043103448 0.948275862 0.004310345 0.004310345 0 0 0.028356225 0.963668587 0.003987594 0.001329198 0.000886132 0.001772264 0.034510194 0.9570363 0.002685231 0.002287419 0.002088513 0.001392342 0.026343154 0.966031196 0.002772964 0.002079723 0.001733102 0.001039861 0.04950495 0.945544554 0 0 0 0.004950495 0.012345679 0.950617284 0 0.012345679 0.012345679 0.012345679 0.018808777 0.978056426 0 0.003134796 0 0 0.015625 0.984375 0 0 0 0 0 1 0 0 0 0 0.058504875 0.928494041 0.006500542 0.001625135 0.002708559 0.002166847 0.049405306 0.94126258 0.00347667 0.001463861 0.002744739 0.001646844 0.040675365 0.953952417 0.003069839 0.00076746 0 0.001534919 0.116402116 0.830687831 0.021164021 0.010582011 0.015873016 0.005291005 0 1 0 0 0 0 0 0.976635514 0.014018692 0.009345793999999999 0 0 0.011111111 0.988888889 0 0 0 0 0 1 0 0 0 0 0.016393443 0.967213115 0 0 0 0.016393443 0.008639309 0.98488121 0.004319654 0.002159827 0 0 0.009433962000000001 0.981132075 0.009433962000000001 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0.010917031 0.978165939 0.002183406 0 0.004366812 0.004366812 0 0.985645933 0.009569378 0.004784689 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 1 0 0 0 0 0 0 0.984848485 0.015151515 0 0 0 0.04029304 0.9487179489999999 0 0.003663004 0 0.007326007 0.02247191 0.97752809 0 0 0 0 0.111111111 0.833333333 0 0 0 0.055555556 0.058823529 0.941176471 0 0 0 0 0.060606061 0.909090909 0 0.015151515 0.015151515 0 0 1 0 0 0 0 0 1 0 0 0 0 0 0.96875 0 0 0 0.03125 0.009708738 0.980582524 0 0.009708738 0 0 0.035714286 0.964285714 0 0 0 0 0 1 0 0 0 0 0.056603774 0.9433962259999999 0 0 0 0 0.046728972 0.953271028 0 0 0 0 0.028571429 0.971428571 0 0 0 0 0 1 0 0 0 0 1 0 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 1 0 0 0 0 0 0.06779660999999999 0.915254237 0 0 0 0.016949153 0.07476635500000001 0.906542056 0.009345793999999999 0 0.009345793999999999 0 0 1 0 0 0 0 0.166666667 0.833333333 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0.024390244 0.926829268 0 0 0.024390244 0.024390244 0.029126214 0.9514563110000001 0 0 0 0.019417476 0 1 0 0 0 0 0 1 0 0 0 0 0.060606061 0.909090909 0.03030303 0 0 0 0.066115702 0.925619835 0 0.008264463 0 0 0.0625 0.9375 0 0 0 0 0.333333333 0.666666667 0 0 0 0 1 0 0 0 0 0 0 1 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 0.024390244 0.975609756 0 0 0 0 0.022222222 0.966666667 0 0.011111111 0 0 0.047619048 0.9523809519999999 0 0 0 0 0.625 0.375 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0.057142857 0.914285714 0.028571429 0 0 0 0.047619048 0.9523809519999999 0 0 0 0 0 0.5 0 0 0.5 0 0 1 0 0 0 0 0.017857143 0.982142857 0 0 0 0 0.017857143 0.982142857 0 0 0 0 0 1 0 0 0 0 1 0 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 1 0 0 0 0 0 0 1 0 0 0 0 0.046511628 0.930232558 0 0 0 0.023255814 0 1 0 0 0 0 1 0 0 0 0 0 0 0.909090909 0 0 0 0.090909091 0 1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 0.976744186 0.023255814 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0.05 0.95 0 0 0 0 0.040816327 0.959183673 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 1 0 0 0 0 0 0 1 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 0 0.9375 0 0 0.0625 0 0.03125 0.96875 0 0 0 0 0 1 0 0 0 0 0 0.4 0 0.4 0.2 0 0 1 0 0 0 0 0.0625 0.9375 0 0 0 0 0.111111111 0.888888889 0 0 0 0 1 0 0 0 0 0 0 1 0 0 0 0 0.056603774 0.9433962259999999 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0.0625 0.9375 0 0 0 0 0 1 0 0 0 0 1 0 0 0 0 0 0 1 0 0 0 0 1 0 0 0 0 0 0 1 0 0 0 0 0.127659574 0.85106383 0 0.021276596 0 0 0.054794521 0.945205479 0 0 0 0 0.142857143 0.857142857 0 0 0 0 0.583333333 0.361111111 0 0 0.027777778 0.027777778</probabilities>
+		</cpt>
+	</nodes>
+	<extensions>
+		<genie version="1.0" app="GeNIe This network was created in GeNIe Academic, which can be used for academic teaching and research purposes only" name="Network1">
+			<node id="Node2">
+				<name>Laser</name>
+				<interior color="99ccff" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>460 98 508 128</position>
+				<barchart active="true" width="128" height="144" />
+			</node>
+			<node id="Copy_of_Node11">
+				<name>Injuries</name>
+				<interior color="00ccff" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>455 260 503 290</position>
+				<barchart active="true" width="188" height="126" />
+			</node>
+			<textbox>
+				<caption>Goal of Model: \nEstimate Probably of Injuries and injury type(s) based on aircraft altitude, color of laser and angle of attack</caption>
+				<font color="000000" name="Arial" size="8" />
+				<position>379 342 635 384</position>
+			</textbox>
+			<node id="Copy_of_Node2">
+				<name>Attack Direction</name>
+				<interior color="99ccff" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>305 80 353 110</position>
+				<barchart active="true" width="128" height="108" />
+			</node>
+			<node id="Copy_of_Node12">
+				<name>Altitude</name>
+				<interior color="99ccff" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>616 71 664 101</position>
+				<barchart active="true" width="121" height="90" />
+			</node>
+			<textbox>
+				<caption>Data for all years\n(2011-2021)</caption>
+				<font color="339966" name="Arial" size="16" bold="true" />
+				<position>94 16 211 88</position>
+			</textbox>
+			<textbox>
+				<caption>Attack Quads (from aircrew perspective):\nQuad 1:  1030-1:30\nQuad 2:  \t9:00-10:30\nQuad 3:  \t1:30-3:00\nQuad 4:  \t3:00-9:00</caption>
+				<font color="339966" name="Arial" size="8" />
+				<position>757 199 960 269</position>
+			</textbox>
+			<textbox>
+				<caption>Data for 2020 only</caption>
+				<font color="339966" name="Arial" size="16" bold="true" />
+				<position>932 16 1114 40</position>
+			</textbox>
+			<node id="Copy_2_of_Node2">
+				<name>Laser</name>
+				<interior color="99ccff" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>1248 106 1296 136</position>
+				<barchart active="true" width="128" height="144" />
+			</node>
+			<node id="Copy_2_of_Node11">
+				<name>Injuries</name>
+				<interior color="00ccff" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>1255 268 1303 298</position>
+				<barchart active="true" width="188" height="126" />
+			</node>
+			<node id="Copy_3_of_Node2">
+				<name>Attack Direction</name>
+				<interior color="99ccff" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>1097 88 1145 118</position>
+				<barchart active="true" width="128" height="108" />
+			</node>
+			<node id="Copy_2_of_Node12">
+				<name>Altitude</name>
+				<interior color="99ccff" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>1399 79 1447 109</position>
+				<barchart active="true" width="121" height="90" />
+			</node>
+			<node id="Copy_6_of_Node2">
+				<name>Copy of Laser</name>
+				<interior color="99ccff" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>909 483 957 513</position>
+				<barchart active="true" width="128" height="144" />
+			</node>
+			<node id="Copy_4_of_Node11">
+				<name>Copy of Injuries</name>
+				<interior color="00ccff" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>912 637 960 667</position>
+				<barchart active="true" width="188" height="108" />
+			</node>
+			<node id="Copy_7_of_Node2">
+				<name>Copy of Attack Direction</name>
+				<interior color="99ccff" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>769 465 817 495</position>
+				<barchart active="true" width="128" height="108" />
+			</node>
+			<node id="Copy_4_of_Node12">
+				<name>Copy of Altitude</name>
+				<interior color="99ccff" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>1048 456 1096 486</position>
+				<barchart active="true" width="121" height="90" />
+			</node>
+			<textbox>
+				<caption>Data for 2020 only with \nInjury &quot;none&quot; removed</caption>
+				<font color="339966" name="Arial" size="16" bold="true" />
+				<position>727 369 961 417</position>
+			</textbox>
+			<textbox>
+				<caption>Goal of Model: \nEstimate Probably of Injuries and injury type(s) based on aircraft altitude, color of laser and angle of attack</caption>
+				<font color="000000" name="Arial" size="8" />
+				<position>1182 348 1438 390</position>
+			</textbox>
+			<textbox>
+				<caption>Goal of Model: \nEstimate Probably of Injuries and injury type(s) based on aircraft altitude, color of laser and angle of attack</caption>
+				<font color="000000" name="Arial" size="8" />
+				<position>837 709 1093 751</position>
+			</textbox>
+		</genie>
+	</extensions>
+</smile>

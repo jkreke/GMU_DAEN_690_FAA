@@ -1,0 +1,505 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<smile version="1.0" id="Network1" numsamples="10000" discsamples="10000">
+	<nodes>
+		<cpt id="Node9">
+			<state id="Heavy" />
+			<state id="Light" />
+			<state id="Light_Medium" />
+			<state id="Medium" />
+			<state id="Unknown" />
+			<probabilities>0.068795678 0.237686686 0.007626311 0.264219892 0.421671433</probabilities>
+		</cpt>
+		<cpt id="Node12">
+			<state id="Under_2K" />
+			<state id="Btwn_2K_to_10K" />
+			<state id="Over_10K" />
+			<state id="Unknown" />
+			<probabilities>0.127740705 0.6364791869999999 0.22847156 0.007308548</probabilities>
+		</cpt>
+		<cpt id="Node13">
+			<state id="Under_3NM" />
+			<state id="Btwn_3NM_and_10NM" />
+			<state id="Over_10NM" />
+			<state id="Unknown" />
+			<probabilities>0.08706704799999999 0.486812838 0.394502701 0.031617413</probabilities>
+		</cpt>
+		<cpt id="Node4">
+			<state id="LFZ" />
+			<state id="CFZ" />
+			<state id="NFZ" />
+			<parents>Node12 Node13</parents>
+			<probabilities>1 0 0 0 1 0 0 1 0 0.270588235 0.581176471 0.148235294 0 1 0 0 1 0 0 1 0 0.069146281 0.549425861 0.381427858 0 1 0 0 1 0 0 0 1 0.028511822 0.256606398 0.71488178 0.98 0.01 0.01 0.01 0.98 0.01 0.01 0.01 0.98 0.122748779 0.46240291 0.414848311</probabilities>
+		</cpt>
+		<cpt id="Copy_of_Node5">
+			<state id="Above90" />
+			<state id="Btwn70_90" />
+			<state id="Btwn40_70" />
+			<state id="Below_40" />
+			<probabilities>0.770705 0.034907598 0.16769336 0.026694045</probabilities>
+		</cpt>
+		<cpt id="Node1">
+			<state id="Fixed_Wing" />
+			<state id="Rotary" />
+			<state id="Other_Unknown" />
+			<parents>Node9</parents>
+			<probabilities>1 0 0 0.627005348 0.371657754 0.001336898 1 0 0 0.951894167 0.048105833 0 0 0 1</probabilities>
+		</cpt>
+		<cpt id="Copy_2_of_Node5">
+			<state id="High" />
+			<state id="Med" />
+			<state id="Low" />
+			<probabilities>0.930869268 0.036960986 0.032169747</probabilities>
+		</cpt>
+		<cpt id="Copy_of_Node9">
+			<state id="Heavy" />
+			<state id="Light" />
+			<state id="Light_Medium" />
+			<state id="Medium" />
+			<state id="Unknown" />
+			<probabilities>0.061007854 0.253295208 0.009009184999999999 0.591218003 0.085469751</probabilities>
+		</cpt>
+		<cpt id="Copy_of_Node1">
+			<state id="Fixed_Wing" />
+			<state id="Rotary" />
+			<state id="Other_Unknown" />
+			<parents>Copy_of_Node9</parents>
+			<probabilities>1 0 0 0.721719632 0.278280368 0 1 0 0 0.982840295 0.01715970499999997 0 0.261904762 0 0.738095238</probabilities>
+		</cpt>
+		<cpt id="Node5">
+			<state id="BKN" />
+			<state id="CLR" />
+			<state id="FEW" />
+			<state id="M" />
+			<state id="OVC" />
+			<state id="SCT" />
+			<state id="VV" />
+			<probabilities>0.058179329 0.501026694 0.253935661 0.074606434 0.049281314 0.061601643 0.001368925</probabilities>
+		</cpt>
+		<noisyadder id="Copy_3_of_Node6">
+			<state id="Yes" />
+			<state id="No" />
+			<parents>Node5 Copy_of_Node5 Copy_2_of_Node5</parents>
+			<dstates>0 6 0 0</dstates>
+			<weights>0.75 0.75 0.95 1</weights>
+			<parameters>0.06 0.9399999999999999 0.5 0.5 0.25 0.75 0.07000000000000001 0.9299999999999999 0.05 0.95 0.06 0.9399999999999999 1 0 1 0 0.03 0.97 0.17 0.83 0.03 0.97 1 0 0.04 0.96 0.03 0.97 0.995 0.005000000000000004</parameters>
+		</noisyadder>
+		<cpt id="Copy_3_of_Node5">
+			<state id="BKN" />
+			<state id="CLR" />
+			<state id="FEW" />
+			<state id="M" />
+			<state id="OVC" />
+			<state id="SCT" />
+			<state id="VV" />
+			<probabilities>0.108396172 0.414950696 0.251957657 0.043140951 0.089617169 0.08773201899999999 0.004205336</probabilities>
+		</cpt>
+		<cpt id="Node6">
+			<state id="Yes" />
+			<state id="No" />
+			<probabilities>0.9596990909999999 0.040300909</probabilities>
+		</cpt>
+		<cpt id="Copy_of_Node6">
+			<state id="Yes" />
+			<state id="No" />
+			<probabilities>0.968064824 0.031935176</probabilities>
+		</cpt>
+		<cpt id="Weekend">
+			<state id="Yes" />
+			<state id="No" />
+			<probabilities>0.296790594 0.703209406</probabilities>
+		</cpt>
+		<cpt id="Copy_2_of_Node6">
+			<state id="Jan_Mar" />
+			<state id="Apr_June" />
+			<state id="July_Sept" />
+			<state id="Oct_Dec" />
+			<probabilities>0.223546235 0.156816015 0.272481729 0.347156022</probabilities>
+		</cpt>
+		<cpt id="PTF">
+			<state id="Yes" />
+			<state id="No" />
+			<parents>Weekend Copy_of_Node6 Copy_2_of_Node6</parents>
+			<probabilities>0.980997625 0.019002375 0.980582524 0.019417476 0.9877800410000001 0.012219959 0.8717948720000001 0.128205128 0.019002375 0.980997625 0.019417476 0.980582524 0.012219959 0.9877800410000001 0.128205128 0.8717948720000001 0.962474645 0.037525355 0.9911764709999999 0.008823529 0.992640294 0.007359706 0.935957305 0.064042695 0.037525355 0.962474645 0.008823529 0.9911764709999999 0.007359706 0.992640294 0.064042695 0.935957305</probabilities>
+		</cpt>
+		<cpt id="Copy_of_Node12">
+			<state id="Under_2K" />
+			<state id="Btwn_2K_to_10K" />
+			<state id="Over_10K" />
+			<state id="Unknown" />
+			<probabilities>0.129238907 0.639964737 0.210676854 0.020119502</probabilities>
+		</cpt>
+		<cpt id="Copy_of_Node13">
+			<state id="Under_3NM" />
+			<state id="Btwn_3NM_and_10NM" />
+			<state id="Over_10NM" />
+			<state id="Unknown" />
+			<probabilities>0.096503086 0.519796258 0.319326085 0.06437457100000001</probabilities>
+		</cpt>
+		<cpt id="Copy_of_Node4">
+			<state id="LFZ" />
+			<state id="CFZ" />
+			<state id="NFZ" />
+			<parents>Copy_of_Node12 Copy_of_Node13</parents>
+			<probabilities>1 0 0 0 1 0 0 1 0 0.279774397 0.570435467 0.149790136 0 1 0 0 1 0 0 1 0 0.071203355 0.5781981819999999 0.350598463 0 1 0 0 1 0 0 0 1 0.032075666 0.291867996 0.676056338 0.98 0.01 0.01 0.01 0.98 0.01 0.01 0.01 0.98 0.127684472 0.480167215 0.392148313</probabilities>
+		</cpt>
+		<noisyadder id="Node11">
+			<state id="Yes" />
+			<state id="No" />
+			<parents>Node6 Node1 PTF Node4 Copy_3_of_Node6</parents>
+			<dstates>0 1 0 1 2 1</dstates>
+			<weights>0.75 1 1 1 0.75 0.95</weights>
+			<parameters>0.9596990909999999 0.040300909 1 0 1 0 0.1 0.9 0.42 0.5800000000000001 0.93 0.06999999999999995 1 0 0.01 0.99 0.88 0.12 1 0 0.66 0.34 1 0 1 0</parameters>
+		</noisyadder>
+		<cpt id="Copy_6_of_Node6">
+			<state id="Yes" />
+			<state id="No" />
+			<probabilities>0.967040121 0.032959879</probabilities>
+		</cpt>
+		<cpt id="Copy_of_Weekend">
+			<state id="Yes" />
+			<state id="No" />
+			<probabilities>0.311858432 0.688141568</probabilities>
+		</cpt>
+		<cpt id="Copy_4_of_Node6">
+			<state id="Yes" />
+			<state id="No" />
+			<probabilities>0.9426250980000001 0.057374902</probabilities>
+		</cpt>
+		<cpt id="Copy_5_of_Node6">
+			<state id="Jan_Mar" />
+			<state id="Apr_June" />
+			<state id="July_Sept" />
+			<state id="Oct_Dec" />
+			<probabilities>0.230023579 0.20277705 0.260509205 0.306690166</probabilities>
+		</cpt>
+		<cpt id="Copy_of_PTF">
+			<state id="Yes" />
+			<state id="No" />
+			<parents>Copy_of_Weekend Copy_4_of_Node6 Copy_5_of_Node6</parents>
+			<probabilities>0.953694581 0.046305419 0.93107221 0.06892779 0.94207586 0.05792414 0.945980543 0.054019457 0.046305419 0.953694581 0.06892779 0.93107221 0.05792414 0.94207586 0.054019457 0.945980543 0.944049599 0.055950401 0.933471933 0.066528067 0.939284684 0.060715316 0.954695222 0.045304778 0.055950401 0.944049599 0.066528067 0.933471933 0.060715316 0.939284684 0.045304778 0.954695222</probabilities>
+		</cpt>
+		<cpt id="Copy_4_of_Node5">
+			<state id="Above90" />
+			<state id="Btwn70_90" />
+			<state id="Btwn40_70" />
+			<state id="Below_40" />
+			<probabilities>0.470272622 0.095272622 0.374709977 0.05974478</probabilities>
+		</cpt>
+		<cpt id="Copy_5_of_Node5">
+			<state id="High" />
+			<state id="Med" />
+			<state id="Low" />
+			<probabilities>0.881017981 0.07033062599999999 0.048651392</probabilities>
+		</cpt>
+		<noisyadder id="Copy_7_of_Node6">
+			<state id="Yes" />
+			<state id="No" />
+			<parents>Copy_3_of_Node5 Copy_4_of_Node5 Copy_5_of_Node5</parents>
+			<dstates>0 6 0 0</dstates>
+			<weights>0.75 0.75 0.95 1</weights>
+			<parameters>0.11 0.89 0.41 0.5900000000000001 0.25 0.75 0.04 0.96 0.09 0.9099999999999999 0.09 0.91 1 0 1 0 0.1 0.9 0.37 0.6300000000000001 0.06 0.9399999999999999 1 0 0.07000000000000001 0.9299999999999999 0.05 0.9500000000000001 0.995 0.005000000000000004</parameters>
+		</noisyadder>
+		<noisyadder id="Copy_of_Node11">
+			<state id="Yes" />
+			<state id="No" />
+			<parents>Copy_6_of_Node6 Copy_of_Node1 Copy_of_PTF Copy_of_Node4 Copy_7_of_Node6</parents>
+			<dstates>0 1 0 1 2 1</dstates>
+			<weights>0.75 1 1 1 0.75 0.95</weights>
+			<parameters>0.967040121 0.032959879 1 0 1 0 0.08 0.92 0.06 0.9399999999999999 0.89 0.11 1 0 0.02 0.98 0.88 0.12 1 0 0.6 0.4 1 0 1 0</parameters>
+		</noisyadder>
+	</nodes>
+	<extensions>
+		<genie version="1.0" app="GeNIe This network was created in GeNIe Academic, which can be used for academic teaching and research purposes only" name="Network1">
+			<node id="Node1">
+				<name>Aircraft</name>
+				<interior color="ccffcc" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>785 288 833 318</position>
+				<barchart active="true" width="128" height="72" />
+			</node>
+			<node id="Node4">
+				<name>Zone</name>
+				<interior color="ccffcc" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>784 392 832 422</position>
+				<barchart active="true" width="128" height="72" />
+			</node>
+			<node id="Node5">
+				<name>Weather</name>
+				<interior color="99ccff" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>419 110 467 140</position>
+				<barchart active="true" width="128" height="144" />
+			</node>
+			<node id="Node9">
+				<name>Aircraft_Weight_Class</name>
+				<interior color="99ccff" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>966 181 1014 211</position>
+				<barchart active="true" width="175" height="108" />
+			</node>
+			<textbox>
+				<caption>Altitude Flight Zones:\nLFZ - Laser Free Zone - 0-2000 feet, 3NM ext and 2500 ft each side of extended runway center line\nCFZ - Critical Free Zone - 2000-10000 feet, within 10NM of airport rfe point\nNFZ - Not defined by LFZ, CFZ or SFZ</caption>
+				<font color="000000" name="Arial" size="8" />
+				<position>910 498 1394 554</position>
+			</textbox>
+			<node id="Node11">
+				<name>Attack</name>
+				<interior color="00ccff" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>590 441 638 471</position>
+				<barchart active="true" width="128" height="60" />
+			</node>
+			<textbox>
+				<caption>Tied to METARS defintions</caption>
+				<font color="000000" name="Arial" size="8" />
+				<position>288 100 365 128</position>
+			</textbox>
+			<textbox>
+				<caption>Goal of Model: \nEstimate Probably of Attack given evidence</caption>
+				<font color="000000" name="Arial" size="8" />
+				<position>551 495 759 523</position>
+			</textbox>
+			<node id="Node12">
+				<name>Altitude</name>
+				<interior color="99ccff" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>990 332 1038 362</position>
+				<barchart active="true" width="214" height="90" />
+			</node>
+			<node id="Node13">
+				<name>Distance</name>
+				<interior color="99ccff" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>1006 427 1054 457</position>
+				<barchart active="true" width="241" height="90" />
+			</node>
+			<node id="Copy_of_Node6">
+				<name>HappyHour</name>
+				<interior color="99ccff" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>236 392 284 422</position>
+				<barchart active="true" width="128" height="54" />
+			</node>
+			<node id="Weekend">
+				<name>Weekend</name>
+				<interior color="99ccff" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>236 329 284 359</position>
+				<barchart active="true" width="128" height="54" />
+			</node>
+			<textbox>
+				<caption>Prime time factors:\n&quot;happy hour&quot; = 1800-0659 local time</caption>
+				<font color="339966" name="Arial" size="8" />
+				<position>43 270 217 298</position>
+			</textbox>
+			<node id="Copy_2_of_Node6">
+				<name>CY-QTR</name>
+				<interior color="99ccff" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>236 475 284 505</position>
+				<barchart active="true" width="128" height="90" />
+			</node>
+			<node id="PTF">
+				<name>Prime_Time_Factors</name>
+				<interior color="ccffcc" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>393 389 441 419</position>
+				<barchart active="true" width="128" height="54" />
+			</node>
+			<node id="Node6">
+				<name>HotSpot</name>
+				<interior color="ccffcc" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>425 294 473 324</position>
+				<barchart active="true" width="128" height="54" />
+			</node>
+			<textbox>
+				<caption>2020 only</caption>
+				<font color="339966" name="Arial" size="16" bold="true" />
+				<position>44 68 140 92</position>
+			</textbox>
+			<node id="Copy_of_Node5">
+				<name>Temp</name>
+				<interior color="99ccff" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>553 136 601 166</position>
+				<barchart active="true" width="128" height="90" />
+			</node>
+			<node id="Copy_2_of_Node5">
+				<name>Humidity</name>
+				<interior color="99ccff" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>687 145 735 175</position>
+				<barchart active="true" width="128" height="72" />
+			</node>
+			<node id="Copy_3_of_Node6">
+				<name>Optimal_Weather</name>
+				<interior color="ccffcc" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>588 250 636 280</position>
+				<barchart active="true" width="128" height="54" />
+			</node>
+			<node id="Copy_of_Node1">
+				<name>Aircraft</name>
+				<interior color="ccffcc" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>769 886 817 916</position>
+				<barchart active="true" width="128" height="72" />
+			</node>
+			<node id="Copy_of_Node4">
+				<name>Zone</name>
+				<interior color="ccffcc" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>793 1011 841 1041</position>
+				<barchart active="true" width="128" height="72" />
+			</node>
+			<node id="Copy_3_of_Node5">
+				<name>Weather</name>
+				<interior color="99ccff" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>422 724 470 754</position>
+				<barchart active="true" width="128" height="144" />
+			</node>
+			<node id="Copy_of_Node9">
+				<name>Aircraft_Weight_Class</name>
+				<interior color="99ccff" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>973 827 1021 857</position>
+				<barchart active="true" width="175" height="108" />
+			</node>
+			<textbox>
+				<caption>Altitude Flight Zones:\nLFZ - Laser Free Zone - 0-2000 feet, 3NM ext and 2500 ft each side of extended runway center line\nCFZ - Critical Free Zone - 2000-10000 feet, within 10NM of airport rfe point\nNFZ - Not defined by LFZ, CFZ or SFZ</caption>
+				<font color="000000" name="Arial" size="8" />
+				<position>909 1111 1393 1167</position>
+			</textbox>
+			<node id="Copy_of_Node11">
+				<name>Attack</name>
+				<interior color="00ccff" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>583 1045 631 1075</position>
+				<barchart active="true" width="128" height="57" />
+			</node>
+			<textbox>
+				<caption>Tied to METARS defintions</caption>
+				<font color="000000" name="Arial" size="8" />
+				<position>268 754 345 782</position>
+			</textbox>
+			<textbox>
+				<caption>Goal of Model: \nEstimate Probably of Attack given evidence</caption>
+				<font color="000000" name="Arial" size="8" />
+				<position>541 1100 749 1128</position>
+			</textbox>
+			<node id="Copy_of_Node12">
+				<name>Altitude</name>
+				<interior color="99ccff" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>999 954 1047 984</position>
+				<barchart active="true" width="214" height="90" />
+			</node>
+			<node id="Copy_of_Node13">
+				<name>Distance</name>
+				<interior color="99ccff" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>1015 1049 1063 1079</position>
+				<barchart active="true" width="241" height="90" />
+			</node>
+			<node id="Copy_4_of_Node6">
+				<name>HappyHour</name>
+				<interior color="99ccff" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>229 998 277 1028</position>
+				<barchart active="true" width="128" height="54" />
+			</node>
+			<node id="Copy_of_Weekend">
+				<name>Weekend</name>
+				<interior color="99ccff" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>229 935 277 965</position>
+				<barchart active="true" width="128" height="54" />
+			</node>
+			<textbox>
+				<caption>Prime time factors:\n&quot;happy hour&quot; = 1800-0659 local time</caption>
+				<font color="339966" name="Arial" size="8" />
+				<position>136 892 310 920</position>
+			</textbox>
+			<node id="Copy_5_of_Node6">
+				<name>CY-QTR</name>
+				<interior color="99ccff" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>231 1078 279 1108</position>
+				<barchart active="true" width="128" height="90" />
+			</node>
+			<node id="Copy_of_PTF">
+				<name>Prime_Time_Factors</name>
+				<interior color="ccffcc" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>386 995 434 1025</position>
+				<barchart active="true" width="128" height="54" />
+			</node>
+			<node id="Copy_6_of_Node6">
+				<name>HotSpot</name>
+				<interior color="ccffcc" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>411 878 459 908</position>
+				<barchart active="true" width="128" height="54" />
+			</node>
+			<textbox>
+				<caption>All years (2011-Jan2021)</caption>
+				<font color="339966" name="Arial" size="16" bold="true" />
+				<position>582 631 736 679</position>
+			</textbox>
+			<node id="Copy_4_of_Node5">
+				<name>Temp</name>
+				<interior color="99ccff" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>558 751 606 781</position>
+				<barchart active="true" width="128" height="90" />
+			</node>
+			<node id="Copy_5_of_Node5">
+				<name>Humidity</name>
+				<interior color="99ccff" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>695 757 743 787</position>
+				<barchart active="true" width="128" height="72" />
+			</node>
+			<node id="Copy_7_of_Node6">
+				<name>Optimal_Weather</name>
+				<interior color="ccffcc" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>581 856 629 886</position>
+				<barchart active="true" width="128" height="54" />
+			</node>
+		</genie>
+	</extensions>
+</smile>

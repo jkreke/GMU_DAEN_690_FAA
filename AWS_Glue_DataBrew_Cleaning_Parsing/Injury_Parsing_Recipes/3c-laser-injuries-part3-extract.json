@@ -1,0 +1,392 @@
+[
+  {
+    "Action": {
+      "Operation": "EXTRACT_PATTERN",
+      "Parameters": {
+        "pattern": "HEADACHE",
+        "sourceColumn": "remarks",
+        "targetColumn": "PAIN1"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "EXTRACT_PATTERN",
+      "Parameters": {
+        "pattern": "EYE PAIN",
+        "sourceColumn": "remarks",
+        "targetColumn": "PAIN2"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "EXTRACT_PATTERN",
+      "Parameters": {
+        "pattern": "EYE STRAIN",
+        "sourceColumn": "remarks",
+        "targetColumn": "PAIN3"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "EXTRACT_PATTERN",
+      "Parameters": {
+        "pattern": "EYE PRESSURE",
+        "sourceColumn": "remarks",
+        "targetColumn": "PAIN4"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "EXTRACT_PATTERN",
+      "Parameters": {
+        "pattern": "EYE IRRITATION",
+        "sourceColumn": "remarks",
+        "targetColumn": "PAIN5"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "EXTRACT_PATTERN",
+      "Parameters": {
+        "pattern": "BURNING",
+        "sourceColumn": "remarks",
+        "targetColumn": "PAIN6"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "EXTRACT_PATTERN",
+      "Parameters": {
+        "pattern": "SCRATCHY EYES",
+        "sourceColumn": "remarks",
+        "targetColumn": "PAIN7"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "EXTRACT_PATTERN",
+      "Parameters": {
+        "pattern": "EYE DISCOMFORT",
+        "sourceColumn": "remarks",
+        "targetColumn": "PAIN8"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "MERGE",
+      "Parameters": {
+        "delimiter": " ",
+        "sourceColumns": "[\"PAIN7\",\"PAIN6\",\"PAIN5\",\"PAIN4\",\"PAIN3\",\"PAIN2\",\"PAIN1\",\"PAIN8\"]",
+        "targetColumn": "PAIN"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "EXTRACT_PATTERN",
+      "Parameters": {
+        "pattern": "AFTERIMAGES",
+        "sourceColumn": "remarks",
+        "targetColumn": "VD1"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "EXTRACT_PATTERN",
+      "Parameters": {
+        "pattern": "VISION AFFECTED",
+        "sourceColumn": "remarks",
+        "targetColumn": "VD2"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "EXTRACT_PATTERN",
+      "Parameters": {
+        "pattern": "BLURRY VISION",
+        "sourceColumn": "remarks",
+        "targetColumn": "VD3"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "EXTRACT_PATTERN",
+      "Parameters": {
+        "pattern": "GLARE",
+        "sourceColumn": "remarks",
+        "targetColumn": "VD4"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "EXTRACT_PATTERN",
+      "Parameters": {
+        "pattern": "LIGHT SENSITIVITY",
+        "sourceColumn": "remarks",
+        "targetColumn": "VD5"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "EXTRACT_PATTERN",
+      "Parameters": {
+        "pattern": "SEEING SPOTS",
+        "sourceColumn": "remarks",
+        "targetColumn": "VD6"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "MERGE",
+      "Parameters": {
+        "delimiter": " ",
+        "sourceColumns": "[\"VD6\",\"VD5\",\"VD4\",\"VD3\",\"VD2\",\"VD1\"]",
+        "targetColumn": "VIS_DISTURB"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "EXTRACT_PATTERN",
+      "Parameters": {
+        "pattern": "BLIND",
+        "sourceColumn": "remarks",
+        "targetColumn": "BLIND1"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "EXTRACT_PATTERN",
+      "Parameters": {
+        "pattern": "TEMPORARY BLINDNESS",
+        "sourceColumn": "remarks",
+        "targetColumn": "BLIND2"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "EXTRACT_PATTERN",
+      "Parameters": {
+        "pattern": "BLIND SPOT",
+        "sourceColumn": "remarks",
+        "targetColumn": "BLIND3"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "EXTRACT_PATTERN",
+      "Parameters": {
+        "pattern": "NIGHT BLINDNESS",
+        "sourceColumn": "remarks",
+        "targetColumn": "BLIND4"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "MERGE",
+      "Parameters": {
+        "delimiter": " ",
+        "sourceColumns": "[\"BLIND4\",\"BLIND3\",\"BLIND2\",\"BLIND1\"]",
+        "targetColumn": "BLINDNESS"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "EXTRACT_PATTERN",
+      "Parameters": {
+        "pattern": "INJURIES UNKNOWN",
+        "sourceColumn": "remarks",
+        "targetColumn": "INJURIES UNK"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "EXTRACT_PATTERN",
+      "Parameters": {
+        "pattern": "NO INJURIES",
+        "sourceColumn": "remarks",
+        "targetColumn": "NO INJURIES"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "EXTRACT_PATTERN",
+      "Parameters": {
+        "pattern": "WATERING EYES",
+        "sourceColumn": "remarks",
+        "targetColumn": "INJ OTHER1"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "EXTRACT_PATTERN",
+      "Parameters": {
+        "pattern": "DRY SOCKET",
+        "sourceColumn": "remarks",
+        "targetColumn": "INJ OTHER2"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "EXTRACT_PATTERN",
+      "Parameters": {
+        "pattern": "EYE INJURIES",
+        "sourceColumn": "remarks",
+        "targetColumn": "INJ_OTHER3"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "EXTRACT_PATTERN",
+      "Parameters": {
+        "pattern": "HIT IN THE EYE",
+        "sourceColumn": "remarks",
+        "targetColumn": "INJ_OTHER4"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "EXTRACT_PATTERN",
+      "Parameters": {
+        "pattern": "REPORTED INJURIES",
+        "sourceColumn": "remarks",
+        "targetColumn": "INJ_OTHER5"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "EXTRACT_PATTERN",
+      "Parameters": {
+        "pattern": "DISORIENTED",
+        "sourceColumn": "remarks",
+        "targetColumn": "INJ_OTHER6"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "EXTRACT_PATTERN",
+      "Parameters": {
+        "pattern": "PUFFY EYE",
+        "sourceColumn": "remarks",
+        "targetColumn": "INJ_OTHER7"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "MERGE",
+      "Parameters": {
+        "delimiter": " ",
+        "sourceColumns": "[\"INJ_OTHER7\",\"INJ_OTHER6\",\"INJ_OTHER5\",\"INJ_OTHER4\",\"INJ OTHER2\",\"INJ OTHER1\",\"INJ_OTHER3\"]",
+        "targetColumn": "OTHER INJ"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_PATTERN",
+      "Parameters": {
+        "pattern": "^(\\s|\\S)*(\\S)+(\\s|\\S)*$",
+        "sourceColumn": "OTHER INJ",
+        "value": "2"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_PATTERN",
+      "Parameters": {
+        "pattern": "^(\\s|\\S)*(\\S)+(\\s|\\S)*$",
+        "sourceColumn": "NO INJURIES",
+        "value": "1"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_PATTERN",
+      "Parameters": {
+        "pattern": "^(\\s|\\S)*(\\S)+(\\s|\\S)*$",
+        "sourceColumn": "BLINDNESS",
+        "value": "5"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_PATTERN",
+      "Parameters": {
+        "pattern": "^(\\s|\\S)*(\\S)+(\\s|\\S)*$",
+        "sourceColumn": "VIS_DISTURB",
+        "value": "3"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_PATTERN",
+      "Parameters": {
+        "pattern": "^(\\s|\\S)*(\\S)+(\\s|\\S)*$",
+        "sourceColumn": "PAIN",
+        "value": "4"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_PATTERN",
+      "Parameters": {
+        "pattern": "^(\\s|\\S)*(\\S)+(\\s|\\S)*$",
+        "sourceColumn": "INJURIES UNK",
+        "value": "0"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "MERGE",
+      "Parameters": {
+        "delimiter": " ",
+        "sourceColumns": "[\"OTHER INJ\",\"NO INJURIES\",\"INJURIES UNK\",\"BLINDNESS\",\"VIS_DISTURB\",\"PAIN\"]",
+        "targetColumn": "Merged Injuries"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_PATTERN",
+      "Parameters": {
+        "pattern": "^\\s+$",
+        "sourceColumn": "Merged Injuries",
+        "value": "0"
+      }
+    }
+  }
+]

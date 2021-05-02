@@ -1,0 +1,1142 @@
+[
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "11500‚Äô FEET",
+        "sourceColumn": "remarks",
+        "value": "11500 FEET"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "13500MSL IN THE CLIMB HEADING: E/SE FEET",
+        "sourceColumn": "remarks",
+        "value": "13500 FEET MSL IN THE CLIMB HEADING: ESE "
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "15000 FEET - FL330 8 S",
+        "sourceColumn": "remarks",
+        "value": "15000 FEET - FL330 8 NM S"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "3000'FEET8SW",
+        "sourceColumn": "remarks",
+        "value": "3000 FEET 8 NM SW"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "4500 FEET25WNW FLL (FLL290022); ",
+        "sourceColumn": "remarks",
+        "value": "4500 FEET 25 NM WNW F-LL (F-LL290022); "
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "ARD23501312000",
+        "sourceColumn": "remarks",
+        "value": "ARD235013 12000"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "COEUR D FEETALENE",
+        "sourceColumn": "remarks",
+        "value": "COEUR D'ALENE"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "FEETGREEN",
+        "sourceColumn": "remarks",
+        "value": "FEET GREEN"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "FL180-FL190",
+        "sourceColumn": "remarks",
+        "value": "FL180 TO FL190"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "FL180-FL220",
+        "sourceColumn": "remarks",
+        "value": "FL180 TO FL220"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "FL18010",
+        "sourceColumn": "remarks",
+        "value": "FL180 10"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "FL180110",
+        "sourceColumn": "remarks",
+        "value": "FL180 110"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "FL18013S",
+        "sourceColumn": "remarks",
+        "value": "FL180 13 NM S"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "FL18017",
+        "sourceColumn": "remarks",
+        "value": "FL180 17"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "FL18026",
+        "sourceColumn": "remarks",
+        "value": "FL180 26"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "FL18034NE",
+        "sourceColumn": "remarks",
+        "value": "FL180 34 NM NE"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "FL1803",
+        "sourceColumn": "remarks",
+        "value": "FL180 3"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "FL1805N",
+        "sourceColumn": "remarks",
+        "value": "FL180 5 NM N"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "FL1807",
+        "sourceColumn": "remarks",
+        "value": "FL180 7"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "FL1807NOFORMOND BEACH",
+        "sourceColumn": "remarks",
+        "value": "FL180 7 NM N OF ORMOND BEACH"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "FL180AT",
+        "sourceColumn": "remarks",
+        "value": "FL180 AT"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "FL180IN",
+        "sourceColumn": "remarks",
+        "value": "FL180 IN"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "FL180T",
+        "sourceColumn": "remarks",
+        "value": "FL180 T"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "FL18636NM SLEXNO",
+        "sourceColumn": "remarks",
+        "value": "FL186 36 NM S LEX"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "FL19010",
+        "sourceColumn": "remarks",
+        "value": "FL190 10"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "FL19010SWLNS",
+        "sourceColumn": "remarks",
+        "value": "FL190 10 NM SW LNS"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "FL19012",
+        "sourceColumn": "remarks",
+        "value": "FL190 12"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "FL19018",
+        "sourceColumn": "remarks",
+        "value": "FL190 18"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "FL1901",
+        "sourceColumn": "remarks",
+        "value": "FL190 1"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "FL1902",
+        "sourceColumn": "remarks",
+        "value": "FL190 2"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "FL1904",
+        "sourceColumn": "remarks",
+        "value": "FL190 4"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "FL19059",
+        "sourceColumn": "remarks",
+        "value": "FL190 59"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "FL1908",
+        "sourceColumn": "remarks",
+        "value": "FL190 8"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "FL190B210",
+        "sourceColumn": "remarks",
+        "value": "FL190 B210"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "FL190FEET",
+        "sourceColumn": "remarks",
+        "value": "FL190"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "FL20010",
+        "sourceColumn": "remarks",
+        "value": "FL200 10"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "FL20013",
+        "sourceColumn": "remarks",
+        "value": "FL200 13"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "FL20014",
+        "sourceColumn": "remarks",
+        "value": "FL200 14"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "FL20015",
+        "sourceColumn": "remarks",
+        "value": "FL200 15"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "FL2001",
+        "sourceColumn": "remarks",
+        "value": "FL200 1"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "FL20020SSE",
+        "sourceColumn": "remarks",
+        "value": "FL200 20 NM SSE"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "FL20026",
+        "sourceColumn": "remarks",
+        "value": "FL200 26"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "FL2003",
+        "sourceColumn": "remarks",
+        "value": "FL200 3"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "FL20040",
+        "sourceColumn": "remarks",
+        "value": "FL200 40"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "FL20043",
+        "sourceColumn": "remarks",
+        "value": "FL200 43"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "FL200IN",
+        "sourceColumn": "remarks",
+        "value": "FL200 IN"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "FL20767",
+        "sourceColumn": "remarks",
+        "value": "FL207 67"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "FL21011",
+        "sourceColumn": "remarks",
+        "value": "FL210 11"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "FL21020",
+        "sourceColumn": "remarks",
+        "value": "FL210 20"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "FL21050",
+        "sourceColumn": "remarks",
+        "value": "FL210 50"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "FL2105",
+        "sourceColumn": "remarks",
+        "value": "FL210 5"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "FL2106",
+        "sourceColumn": "remarks",
+        "value": "FL210 6"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "FL2153",
+        "sourceColumn": "remarks",
+        "value": "FL215 3"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "FL22015",
+        "sourceColumn": "remarks",
+        "value": "FL220 15"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "FL22025",
+        "sourceColumn": "remarks",
+        "value": "FL220 25"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "FL2208",
+        "sourceColumn": "remarks",
+        "value": "FL220 8"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "FL220FEET18",
+        "sourceColumn": "remarks",
+        "value": "FL220 18"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "FL220IN",
+        "sourceColumn": "remarks",
+        "value": "FL220 IN"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "FL220 NMOVER",
+        "sourceColumn": "remarks",
+        "value": "FL220 OVER"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "FL23011",
+        "sourceColumn": "remarks",
+        "value": "FL230 11"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "FL23014SE",
+        "sourceColumn": "remarks",
+        "value": "FL230 14 NM SE"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "FL23020",
+        "sourceColumn": "remarks",
+        "value": "FL230 20"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "FL23025NNE",
+        "sourceColumn": "remarks",
+        "value": "FL230 25 NM NNE"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "FL2303",
+        "sourceColumn": "remarks",
+        "value": "FL230 3"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "FL2304",
+        "sourceColumn": "remarks",
+        "value": "FL230 4"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "FL23050",
+        "sourceColumn": "remarks",
+        "value": "FL230 50"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "FL23061",
+        "sourceColumn": "remarks",
+        "value": "FL230 61"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "FL230IN",
+        "sourceColumn": "remarks",
+        "value": "FL230 IN"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "FL230NEAR",
+        "sourceColumn": "remarks",
+        "value": "FL230 NEAR"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "FL23375",
+        "sourceColumn": "remarks",
+        "value": "FL233 75"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "FL23410",
+        "sourceColumn": "remarks",
+        "value": "FL234 10"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "FL23553",
+        "sourceColumn": "remarks",
+        "value": "FL235 53"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "FL24011",
+        "sourceColumn": "remarks",
+        "value": "FL240 11"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "FL24012",
+        "sourceColumn": "remarks",
+        "value": "FL240 12"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "FL24023",
+        "sourceColumn": "remarks",
+        "value": "FL240 23"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "FL24025",
+        "sourceColumn": "remarks",
+        "value": "FL240 25"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "FL24049",
+        "sourceColumn": "remarks",
+        "value": "FL240 49"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "FL2407",
+        "sourceColumn": "remarks",
+        "value": "FL240 7"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "FL240B260",
+        "sourceColumn": "remarks",
+        "value": "FL240 B260"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "FL240NW",
+        "sourceColumn": "remarks",
+        "value": "FL240 NW"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "FL2481",
+        "sourceColumn": "remarks",
+        "value": "FL248 1"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "FL250-270",
+        "sourceColumn": "remarks",
+        "value": "FL250 TO FL270"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "FL250-FL270",
+        "sourceColumn": "remarks",
+        "value": "FL250 TO FL270"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "FL25015",
+        "sourceColumn": "remarks",
+        "value": "FL250 15"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "FL250B280",
+        "sourceColumn": "remarks",
+        "value": "FL250 B280"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "FL25537",
+        "sourceColumn": "remarks",
+        "value": "FL255 37"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "FL260-FL340",
+        "sourceColumn": "remarks",
+        "value": "FL260 TO FL340"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "FL26010NNE",
+        "sourceColumn": "remarks",
+        "value": "FL260 10 NM NNE"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "FL26010WSW",
+        "sourceColumn": "remarks",
+        "value": "FL260 10 NM WSW"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "FL26015",
+        "sourceColumn": "remarks",
+        "value": "FL260 15"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "FL26020",
+        "sourceColumn": "remarks",
+        "value": "FL260 20"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "FL26053",
+        "sourceColumn": "remarks",
+        "value": "FL260 53"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "FL2609",
+        "sourceColumn": "remarks",
+        "value": "FL260 9"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "FL260IN",
+        "sourceColumn": "remarks",
+        "value": "FL260 IN"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "FL27035",
+        "sourceColumn": "remarks",
+        "value": "FL270 35"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "FL2705",
+        "sourceColumn": "remarks",
+        "value": "FL270 5"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "FL28010",
+        "sourceColumn": "remarks",
+        "value": "FL280 10"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "FL28010SE",
+        "sourceColumn": "remarks",
+        "value": "FL280 10 NM SE"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "FL28015SW",
+        "sourceColumn": "remarks",
+        "value": "FL280 15 NM SW"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "FL28035",
+        "sourceColumn": "remarks",
+        "value": "FL280 35"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "FL2805W",
+        "sourceColumn": "remarks",
+        "value": "FL280 5 NM W"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "FL280FEET18",
+        "sourceColumn": "remarks",
+        "value": "FL280 18 NM"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "FL280FEET",
+        "sourceColumn": "remarks",
+        "value": "FL280"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "FL280SOUTHEAST",
+        "sourceColumn": "remarks",
+        "value": "FL280 SOUTHEAST"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "FL280TILL",
+        "sourceColumn": "remarks",
+        "value": "FL280 TILL"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "FL29520",
+        "sourceColumn": "remarks",
+        "value": "FL295 20"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "FL300040",
+        "sourceColumn": "remarks",
+        "value": "FL3000 40"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "FL30017",
+        "sourceColumn": "remarks",
+        "value": "FL300 17"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "FL30020W",
+        "sourceColumn": "remarks",
+        "value": "FL300 20 NM W"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "FL30024",
+        "sourceColumn": "remarks",
+        "value": "FL300 24"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "FL30025",
+        "sourceColumn": "remarks",
+        "value": "FL300 25"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "FL30030",
+        "sourceColumn": "remarks",
+        "value": "FL300 30"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "FL30053SSE",
+        "sourceColumn": "remarks",
+        "value": "FL300 53 NM SSE"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "FL3104",
+        "sourceColumn": "remarks",
+        "value": "FL310 4"
+      }
+    }
+  }
+]

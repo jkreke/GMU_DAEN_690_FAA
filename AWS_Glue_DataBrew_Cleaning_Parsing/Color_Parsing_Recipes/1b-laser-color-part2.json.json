@@ -1,0 +1,162 @@
+[
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "MULTI COLOR",
+        "sourceColumn": "remarks",
+        "value": "MULTI-COLOR"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "GREENLASER",
+        "sourceColumn": "remarks",
+        "value": "GREEN LASER"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "MULTI-COLORED ",
+        "sourceColumn": "remarks",
+        "value": "MULTI-COLOR "
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "WHITE FOCUSED LASER",
+        "sourceColumn": "remarks",
+        "value": "WHITE LASER"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "WHITE SEARCH LASER LASER",
+        "sourceColumn": "remarks",
+        "value": "WHITE LASER"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "WHITE STROBELASER OR LASER",
+        "sourceColumn": "remarks",
+        "value": "WHITE LASER"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "WHITELASERFROM",
+        "sourceColumn": "remarks",
+        "value": "WHITE LASER FROM"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "MULTI-COLORRED ",
+        "sourceColumn": "remarks",
+        "value": "MULTI-COLOR "
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "WHITEFLOODLASER",
+        "sourceColumn": "remarks",
+        "value": "WHITE LASER"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "BLUES LASERWHILE",
+        "sourceColumn": "remarks",
+        "value": "BLUE LASER WHILE"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "BLUE/PURPLE LASER",
+        "sourceColumn": "remarks",
+        "value": "BLUE, PURPLE LASER"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "BRIGHT' GREEN LASER",
+        "sourceColumn": "remarks",
+        "value": "GREEN LASER"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "BYMULTIPLEGREEN, BLUE, RED AND PURPLE",
+        "sourceColumn": "remarks",
+        "value": "BY MULTI-COLOR"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "GREEN AND PURPLE",
+        "sourceColumn": "remarks",
+        "value": "GREEN, PURPLE"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "GREEN,A RED, ANDA PURPLE LASER",
+        "sourceColumn": "remarks",
+        "value": "MULTI-COLOR LASER"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "LASER GREEN",
+        "sourceColumn": "remarks",
+        "value": "GREEN LASER"
+      }
+    }
+  }
+]
